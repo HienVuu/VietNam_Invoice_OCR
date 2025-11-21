@@ -1,48 +1,79 @@
-# Vietnamese OCR
+# Vietnamese Invoice OCR & Extraction
 
-This project is about Optical Character Recognition (OCR) in Vietnamese texts. It uses PaddleOCR and VietOCR frameworks to achieve this. PaddleOCR is a popular OCR framework that provides a wide range of OCR models and tools. VietOCR is a popular framework for Vietnamese OCR task, based on Transformer OCR architecture.
+This project focuses on Optical Character Recognition (OCR) and Information Extraction (IE) for Vietnamese invoices. It combines **PaddleOCR** for text detection, **VietOCR** for text recognition, and **Google Gemini (LLM)** to parse unstructured text into structured JSON data (Universal Schema).
 
->Note that: this model is just a compiling model, which means that I have simply gathered scripts from models in order to create a cohesive and comprehensive result. The end-to-end project will be started in the near future.
+> **Note:** This is a hybrid pipeline project. It leverages the strengths of specialized OCR models for reading Vietnamese text and the reasoning capabilities of Large Language Models (Gemini 2.5 Flash) to understand document layout and semantics.
 
 # Outline
 
 1. Text Detection
 2. Text Recognition
+3. Information Extraction (LLM)
+4. Usage
 
-# Text Dectection
-Text detection is the process of locating text in an image or video and recognizing the presence of characters. The [DB algorithm](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/algorithm_det_db_en.md) is a popular algorithm used in the [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) framework to localize text in the input image. It works by detecting the text regions in the image and then grouping them into text lines. This algorithm is known for its high accuracy and speed.
+# 1. Text Detection
 
-To enhance the accuracy of Text Recognition, images cropped by the DB algorithm were padded. This is because the padding helps to ensure that the text is not cut off during the recognition process.
+Text detection is the process of locating text in an image and recognizing the presence of characters. The [DB algorithm](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/algorithm_det_db_en.md) is a popular algorithm used in the [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) framework to localize text in the input invoice image. It works by detecting the text regions in the image and then grouping them into text lines. This algorithm is known for its high accuracy and speed.
 
-# Text Recognition
+To enhance the accuracy of Text Recognition, images cropped by the DB algorithm are padded to ensure that the text is not cut off during the recognition process.
 
-Text Recognition is the process of recognizing the text in an image or video. For Text Recognition part, you used [VietOCR](https://github.com/pbcquoc/vietocr), which is a popular framework for Vietnamese OCR task. It is based on Transformer OCR architecture. The Transformer OCR architecture is a combination of the CNN and Transformer models. The CNN model is used to extract features from the input image, while the Transformer model is used to recognize the text in the image. This architecture is known for its high accuracy and speed.
+# 2. Text Recognition
 
-# Usage
+Text Recognition is the process of recognizing the text in an image. For this part, I utilized [VietOCR](https://github.com/pbcquoc/vietocr), a popular framework for Vietnamese OCR tasks based on Transformer architecture. The Transformer OCR architecture combines CNN (to extract features) and Transformer models (seq2seq) to recognize text. This architecture is particularly effective for Vietnamese language peculiarities.
 
-Firstly, clone this repository by executing:
+# 3. Information Extraction (LLM)
 
-```
-git clone https://github.com/bmd1905/vietnamese-ocr
-```
+OCR engines only provide raw, unstructured text. To convert this into usable data, this project integrates **Google Gemini API** (Gemini 2.5 Flash).
 
-After cloning the repository, download the required dependencies by running:
+* **Role:** The LLM acts as a reasoning engine. It receives the raw text sorted by position, analyzes the context, and extracts key fields.
+* **Capabilities:**
+    * **Auto-Classification:** Distinguishes between Header, Body (Items), and Footer.
+    * **Universal Schema:** Automatically maps data to a standardized JSON structure (Seller, Buyer, Invoice Info, Line Items, Financials).
+    * **Error Correction:** Fixes minor OCR typos based on semantic context.
+    * **Complex Layouts:** Handles invoices with tables, merged columns, or non-standard formats.
 
-```
-pip install -r requirement.txt
-```
+# 4. Usage
 
-For command-line usage, execute the following script for inference:
+### Prerequisites
 
-```
-python predict.py
-    --img path/to/image
-    --output path/of/output_image
-```
+* Python 3.10+
+* Google AI Studio API Key
 
-For Jupyter Notebook, you can explore and experiment with the code at [predict.ipynb](https://github.com/bmd1905/vietnamese-ocr/blob/master/predict.ipynb).
+### Installation
 
-# References
+Firstly, clone this repository:
 
-- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-- [VietOCR](https://github.com/pbcquoc/vietocr)
+```bash
+git clone [https://github.com/HienVuu/VietOCR.git](https://github.com/HienVuu/VietOCR.git)
+cd VietOCR
+It is recommended to use conda to manage the environment:
+# Create and activate environment
+conda create -n Vietocr_env python=3.10
+conda activate Vietocr_env
+
+# Install dependencies
+pip install -r requirements.txt
+Configuration
+Set up your Google API Key (Required for Gemini integration):
+Windows (PowerShell):
+$env:GOOGLE_API_KEY="AIzaSy_YOUR_API_KEY_HERE"
+Linux/macOS:
+export GOOGLE_API_KEY="AIzaSy_YOUR_API_KEY_HERE"
+Running Inference
+You can run the extraction script for a single image or a whole directory.
+
+Option 1: Process a single image
+python run.py --image_path input/invoice_example.jpg --output_path output
+Option 2: Process all images in a folder (Batch Processing)
+python run.py --image_path input --output_path output
+The results (images with bounding boxes and structured JSON files) will be saved in the output/ directory.
+
+Jupyter Notebook
+For experimentation and visualization, you can explore the code at predict.ipynb or inference.ipynb.
+
+References
+PaddleOCR
+
+VietOCR
+
+Google AI Studio (Gemini)
