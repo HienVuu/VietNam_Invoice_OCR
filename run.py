@@ -5,7 +5,7 @@ from PIL import Image, ImageFilter, ImageDraw, ImageFont
 import argparse
 import json
 import numpy as np
-import openai
+#import openai
 import requests
 import time
 
@@ -252,7 +252,7 @@ def extract_invoice_fields(raw_texts):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--image_path', required=True, type=str, help='Path to input image')
+    parser.add_argument('--image_paths', required=True, nargs='+', type=str, help='Paths to input images')
     parser.add_argument('--output_path', default='./output', type=str, help='Path to output folder')
     args = parser.parse_args()
 
@@ -265,24 +265,28 @@ if __name__ == '__main__':
 
     print("--- Models loaded. Starting prediction... ---")
 
-    boxes, texts = predict(
-        recognitor=recognitor,
-        detector=detector,
-        img_path=args.image_path,
-        save_path=args.output_path
-    )
+    all_texts = []
+    for img_path in args.image_paths:
+        boxes, texts = predict(
+            recognitor=recognitor,
+            detector=detector,
+            img_path=img_path,
+            save_path=args.output_path
+        )
+        sorted_indices = sorted(range(len(boxes)), key=lambda i: boxes[i][0][1])
+        sorted_texts = [texts[i] for i in sorted_indices]
+        all_texts.extend(sorted_texts)
 
-    sorted_indices = sorted(range(len(boxes)), key=lambda i: boxes[i][0][1])
-    sorted_texts = [texts[i] for i in sorted_indices]
+    print("--- Sending ALL combined text to Gemini for full classification... ---")
 
-    print("--- Sending ALL text to Gemini for full classification... ---")
-
-    ai_result = extract_invoice_fields(sorted_texts)
+    ai_result = extract_invoice_fields(all_texts)
 
     final_data = ai_result.copy()
-    final_data["raw_text_all"] = sorted_texts
+    final_data["raw_text_all"] = all_texts
 
-    json_output_path = os.path.join(args.output_path, os.path.splitext(os.path.basename(args.image_path))[0] + '.json')
+    # Use the first image's name for the JSON output
+    first_image_name = os.path.splitext(os.path.basename(args.image_paths[0]))[0]
+    json_output_path = os.path.join(args.output_path, first_image_name + '.json')
 
     with open(json_output_path, 'w', encoding='utf-8') as f:
         json.dump(final_data, f, ensure_ascii=False, indent=4)

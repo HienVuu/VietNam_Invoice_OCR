@@ -25,4 +25,3 @@ vgg_transformer.pth
 .idea/
 
 *.log
-check_api.py

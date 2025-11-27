@@ -1,6 +1,11 @@
+requests
+numpy<2.0
+pillow
+opencv-python-headless
+transformers
 einops==0.2.0
 pyclipper
 lmdb
-transformers
-torch
-google-generativeai
+imgaug>=0.4.0
+vietocr
+protobuf==3.20.3
