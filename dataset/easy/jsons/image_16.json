@@ -1,4 +1,107 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AC2212008002277",
+            "source_text": "000AC2212008002277"
+        },
+        "date": {
+            "value": "2020-08-16",
+            "source_text": "16/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": {
+            "value": "phùng phương anh",
+            "source_text": "(0) phùng phương anh"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 148000.0,
+            "source_text": "148,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "milo to 180ml NT",
+                "source_text": "29100595000 milo to 180ml NT"
+            },
+            "quantity": {
+                "value": 8,
+                "source_text": "8"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 3750.0,
+                "source_text": "Derived from Thành tiến: 30,000 / SL: 8"
+            },
+            "total_money": {
+                "value": 30000.0,
+                "source_text": "30,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "bánh mochi đài loan gói 120 N0",
+                "source_text": "4711931007615 bánh mochi đài loan gói 120 N0"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 33000.0,
+                "source_text": "33,000"
+            },
+            "total_money": {
+                "value": 33000.0,
+                "source_text": "33,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Banh tipo oalaa 980g NT",
+                "source_text": "8934760219315 Banh tipo oalaa 980g NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "HOP",
+                "source_text": "HOP"
+            },
+            "unit_price": {
+                "value": 33000.0,
+                "source_text": "33,000"
+            },
+            "total_money": {
+                "value": 33000.0,
+                "source_text": "33,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sủi Phú Thị Gia Làm",

@@ -1,4 +1,33 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-11",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": null,
+        "approvals": null,
+        "notes": null,
+        "drawing_dimensions": null
+    },
+    "financials": {
+        "total_payment": 100000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Vở kẻ ngang",
+            "quantity": 10,
+            "unit": null,
+            "unit_price": 10000,
+            "total_money": 100000,
+            "specs_ref": "Ck: 0"
+        }
+    ],
     "raw_text_all": [
         "NHÀ SÁCH GD-TC CẨM PHẢ",
         "Đc: 212 Đường Trần Phú-Cẩm Phả",

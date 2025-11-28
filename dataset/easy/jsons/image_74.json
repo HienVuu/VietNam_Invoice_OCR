@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "00198 - 22108506",
+        "date": "2020-10-02",
+        "seller_or_manufacturer": "MILANO COFFEE",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 19000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Cà phê sửa hạt dẻ (M)",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 19000,
+            "total_money": 19000,
+            "specs_ref": "(MV)"
+        }
+    ],
     "raw_text_all": [
         "MILANO COFFEE",
         "HÓA ĐƠN THANH TOÁN",

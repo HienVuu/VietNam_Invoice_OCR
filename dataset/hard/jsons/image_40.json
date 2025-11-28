@@ -1,4 +1,58 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "01:00078775",
+            "source_text": "01:00078775"
+        },
+        "date": {
+            "value": "2020-08-09",
+            "source_text": "Ngày bán:09/08/2020 16:38"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce",
+            "source_text": "Vincommerce"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 32500,
+            "source_text": "TỔNG TIỀN PHẢI T. TOÁN 32.500"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "T.Tiền"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Mất - DNV Me chua tách vô 3009",
+                "source_text": "Mất - DNV Me chua tách vô 3009"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 32500,
+                "source_text": "32.500"
+            },
+            "total_money": {
+                "value": 32500,
+                "source_text": "32.500"
+            },
+            "specs_ref": {
+                "value": "8935287300067",
+                "source_text": "8935287300067"
+            }
+        }
+    ],
     "raw_text_all": [
         "VM? ONH 86 Trần Phú",
         "1",

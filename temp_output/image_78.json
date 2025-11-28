@@ -1,4 +1,52 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "SON55632",
+            "source_text": "SON55632"
+        },
+        "date": {
+            "value": "2020-08-12",
+            "source_text": "12-08-2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "CỬA HÀNG NĂM OÁNH",
+            "source_text": "CỬA HÀNG NĂM OÁNH\nThôn Phú Thuy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội\n086932496 - 02438765210"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 210000,
+            "source_text": "210,000"
+        },
+        "currency": null
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Simply 5 L/4",
+                "source_text": "Simply 5 L/4"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 210000,
+                "source_text": "210,000"
+            },
+            "total_money": {
+                "value": 210000,
+                "source_text": "210,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "CỬA HÀNG NĂM OÁNH",
         "Thôn Phú Thuy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",

@@ -1,4 +1,101 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AC2212008001811",
+            "source_text": "000AC2212008001811"
+        },
+        "date": {
+            "value": "2020-08-14",
+            "source_text": "14/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMARTANAN",
+            "source_text": "MINIMARTANAN"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": {
+            "value": 66000,
+            "source_text": "66,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "keo parago sửa 250g NT",
+                "source_text": "keo parago sửa 250g NT"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 33000,
+                "source_text": "33,000"
+            },
+            "total_money": {
+                "value": 66000,
+                "source_text": "66,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "VEN",
         "MINIMARTANAN",

@@ -1,4 +1,60 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00182247",
+        "date": "2020-08-15",
+        "seller_or_manufacturer": "Vincommerce - Số 112 Thanh Niên, P. Cảm Thành, TP. Cảm Phá, Quảng Ninh",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 425336.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Kiwi Vàng 4 trái/hop New Zea land",
+            "quantity": 1.0,
+            "unit": "hộp",
+            "unit_price": 113400.0,
+            "total_money": 113400.0,
+            "specs_ref": "1153401000014"
+        },
+        {
+            "name": "Bắp cải trai tim",
+            "quantity": 0.952,
+            "unit": "KG",
+            "unit_price": 43000.0,
+            "total_money": 40936.0,
+            "specs_ref": "2655370009528"
+        },
+        {
+            "name": "CP.Thit vai heo 300g",
+            "quantity": 1.0,
+            "unit": "gói",
+            "unit_price": 45500.0,
+            "total_money": 45500.0,
+            "specs_ref": "8935058962012"
+        },
+        {
+            "name": "CP. sươn non heo 300g",
+            "quantity": 1.0,
+            "unit": "gói",
+            "unit_price": 74500.0,
+            "total_money": 74500.0,
+            "specs_ref": "8935058962036"
+        },
+        {
+            "name": "Gã muối Thu Hằng gói 500g",
+            "quantity": 1.0,
+            "unit": "gói",
+            "unit_price": 151000.0,
+            "total_money": 151000.0,
+            "specs_ref": "8938508668212"
+        }
+    ],
     "raw_text_all": [
         "VM% QNH 112 Thanh Niên",
         "Số 112 Thanh Niên, P. Cảm Thành",

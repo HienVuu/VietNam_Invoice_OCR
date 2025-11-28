@@ -1,4 +1,37 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": {
+            "value": "001140",
+            "source_text": "Số h bơn: 001140"
+        },
+        "date": {
+            "value": null,
+            "source_text": "NGÀY 13/00/2600"
+        },
+        "seller_or_manufacturer": {
+            "value": "SƠN HOÀNG LÊ NHI ANH",
+            "source_text": "SƠN HOÀNG LÊ NHI ANH"
+        },
+        "buyer_or_project": {
+            "value": "Can Phi Qung Ninh",
+            "source_text": "Can Phi Qung Ninh"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 229869.0,
+            "source_text": "UND229,869"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "UND"
+        }
+    },
+    "items": [],
     "raw_text_all": [
         "Vietcombank",
         "E",

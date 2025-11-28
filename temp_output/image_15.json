@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "000AC2212008001472",
+        "date": "2020-08-11",
+        "seller_or_manufacturer": "MINIMARTANAN Chợ Sủi Phú Thị Gia Lâm",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 66000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "291020570000GVS watersilk 3 lớp NT",
+            "quantity": 1,
+            "unit": "GÓI",
+            "unit_price": 66000,
+            "total_money": 66000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMARTANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

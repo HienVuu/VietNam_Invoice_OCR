@@ -1,4 +1,58 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00073278",
+            "source_text": "0H:00073278"
+        },
+        "date": {
+            "value": "2020-08-14",
+            "source_text": "14/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce, TP. Cẩm Phả, T. Quảng Ninh",
+            "source_text": "Vincommerce\nTP. Cảm Phá, T. Quảng Ninh"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 160000,
+            "source_text": "160.000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": null
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "CP xương đuôi 500g",
+                "source_text": "CP xương đuôi 500g"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 40000,
+                "source_text": "40.000"
+            },
+            "total_money": {
+                "value": 160000,
+                "source_text": "160.000"
+            },
+            "specs_ref": {
+                "value": "8935058962128",
+                "source_text": "8935058962128"
+            }
+        }
+    ],
     "raw_text_all": [
         "VM% QNH Dự án KDC lấn biên cọc 6",
         "DA khu DCLB cọc 8, P. Cảm Sơn",

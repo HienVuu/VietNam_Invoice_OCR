@@ -1,4 +1,52 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": null,
+        "date": null,
+        "seller_or_manufacturer": "MINIMART ANAN Chợ Súi Phú Thị Gia Lâm",
+        "buyer_or_project": "cao thị nhung"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 112000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "BVS Diana dày cánh NT",
+            "quantity": 2,
+            "unit": "CAI",
+            "unit_price": 16000,
+            "total_money": 32000,
+            "specs_ref": null
+        },
+        {
+            "name": "BVS diana mỏng cánh NT",
+            "quantity": 2,
+            "unit": "goi",
+            "unit_price": 17000,
+            "total_money": 34000,
+            "specs_ref": null
+        },
+        {
+            "name": "sữa đậu nành goldsoy 200ml NT",
+            "quantity": 10,
+            "unit": "goi",
+            "unit_price": 3300,
+            "total_money": 33000,
+            "specs_ref": null
+        },
+        {
+            "name": "Sữa túi fino không đường VN NT",
+            "quantity": 2,
+            "unit": "goi",
+            "unit_price": 6500,
+            "total_money": 13000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "N",
         "MINIMART ANAN",

@@ -1,4 +1,52 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "BL200807.00072",
+        "date": "2020-08-07",
+        "seller_or_manufacturer": "SIÊU THỊ MINH LOAN",
+        "buyer_or_project": "Khách lê"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 61000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Kem Tra Sua Tran Chai HUNG LINH",
+            "quantity": 1,
+            "unit": "Cái",
+            "unit_price": 6000,
+            "total_money": 6000,
+            "specs_ref": null
+        },
+        {
+            "name": "Kem Sua Chua.35",
+            "quantity": 1,
+            "unit": "Cái",
+            "unit_price": 6000,
+            "total_money": 6000,
+            "specs_ref": null
+        },
+        {
+            "name": "Kem trang tien 35 vr sua dua",
+            "quantity": 2,
+            "unit": "Chiếc",
+            "unit_price": 5000,
+            "total_money": 10000,
+            "specs_ref": null
+        },
+        {
+            "name": "Dua Dua Non Coco XIM 330ml",
+            "quantity": 3,
+            "unit": "Hộp",
+            "unit_price": 13000,
+            "total_money": 39000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "SIÊU THỊ MINH LOAN",
         "ĐT.09033975",

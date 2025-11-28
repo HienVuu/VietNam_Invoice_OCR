@@ -1,4 +1,52 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "GD.000AB2212000033009",
+        "date": "2020-04-16",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 136000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Tên hà xác 0.880 bánh qua cách triểu 1009 thọ",
+            "quantity": null,
+            "unit": null,
+            "unit_price": null,
+            "total_money": 48000,
+            "specs_ref": null
+        },
+        {
+            "name": "BASASOS1173 bánh quá mini waf 2009 HT",
+            "quantity": 3,
+            "unit": "goi",
+            "unit_price": 16000,
+            "total_money": 40000,
+            "specs_ref": null
+        },
+        {
+            "name": "29103071000 thach long hai caramen thatio",
+            "quantity": 2,
+            "unit": "goi",
+            "unit_price": 20000,
+            "total_money": 35000,
+            "specs_ref": null
+        },
+        {
+            "name": "8934563619138 Mi cốc moder lầu NT",
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 35000,
+            "total_money": 13000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sùi Phú Thị Gia Lâm",

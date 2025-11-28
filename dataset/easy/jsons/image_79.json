@@ -1,4 +1,36 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AC2212008001665",
+        "date": "12/08/2020",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 116000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "dg sunsilk 650 NT TH",
+            "quantity": 1,
+            "unit": "LO",
+            "unit_price": 110000.0,
+            "total_money": 110000.0,
+            "specs_ref": "29100330000"
+        },
+        {
+            "name": "KDR Colgate trẻ em NT",
+            "quantity": 1,
+            "unit": "hop",
+            "unit_price": 6000.0,
+            "total_money": 6000.0,
+            "specs_ref": "8850006932278"
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

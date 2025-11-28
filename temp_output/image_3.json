@@ -1,4 +1,75 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "IDIO04A3523",
+            "source_text": "IDIO04A3523"
+        },
+        "date": {
+            "value": "2020-08-03",
+            "source_text": "103/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce",
+            "source_text": "Vincommerce"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 39700.0,
+            "source_text": "39.700"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": null
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "LÀM HÀ CÒN THẠCH KHÔ HÀ NỘI HỘP 125G",
+                "source_text": "LÀM HÀ CÒN THẠCH KHÔ HÀ NỘI HỘP 125G"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 6700.0,
+                "source_text": "6.700"
+            },
+            "total_money": {
+                "value": 6700.0,
+                "source_text": "6.700"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Hạt lạc phú hải túi 200g",
+                "source_text": "Hạt lạc phú hải túi 200g"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": null
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 33000.0,
+                "source_text": "33.000"
+            },
+            "total_money": {
+                "value": 33000.0,
+                "source_text": "33.000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "VMF 155 Tô Hiệu",
         "165, Tô Hiệu tò 1, P. Dịch Vọng",

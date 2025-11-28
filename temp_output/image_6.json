@@ -1,4 +1,116 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "10.000A822/2008000010",
+            "source_text": "Số 10.000A822/2008000010"
+        },
+        "date": {
+            "value": "2020-08-19",
+            "source_text": "Ngày 191082020201802"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": {
+            "value": "Mỹ nguyễn thị phương uyên",
+            "source_text": "Mỹ nguyễn thị phương uyên"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 440000,
+            "source_text": "Tổng cộng: VND 440,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Tâm bảo có tron26 bình qua cho, nhà măn vị phá 17 thời thánh thời thời thời thời thời thờng thời thị thuận thị thuận thị thuận th",
+                "source_text": "Tâm bảo có tron26 bình qua cho, nhà măn vị phá 17 thời thánh thời thời thời thời thời thờng thời thị thuận thị thuận thị thuận th"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": null
+            },
+            "unit": {
+                "value": null,
+                "source_text": null
+            },
+            "unit_price": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "total_money": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "29100106000 bìm huggi quần M74/NT",
+                "source_text": "29100106000 bìm huggi quần M74/NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "goi",
+                "source_text": "goi"
+            },
+            "unit_price": {
+                "value": 315000,
+                "source_text": "315,000"
+            },
+            "total_money": {
+                "value": 315000,
+                "source_text": "315,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "291000870000 nước giật cho bà của kên tất",
+                "source_text": "291000870000 nước giật cho bà của kên tất"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "TUI",
+                "source_text": "TUI"
+            },
+            "unit_price": {
+                "value": 105000,
+                "source_text": "105,000"
+            },
+            "total_money": {
+                "value": 105000,
+                "source_text": "105,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Súi Phú Thị Gia Làm",

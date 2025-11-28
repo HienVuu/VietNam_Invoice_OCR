@@ -1,4 +1,103 @@
 {
+    "document_type": {
+        "value": "receipt",
+        "source_text": "BIÊN LAI"
+    },
+    "general_info": {
+        "code": {
+            "value": "01017259",
+            "source_text": "01017259"
+        },
+        "date": {
+            "value": "2020-08-15",
+            "source_text": "15-08-2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Nhà Hàng Aozora Sushi",
+            "source_text": "Nhà Hàng Aozora Sushi"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": null,
+        "approvals": null,
+        "notes": null,
+        "drawing_dimensions": null
+    },
+    "financials": {
+        "total_payment": {
+            "value": 421000.0,
+            "source_text": "421,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": null
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Set 30",
+                "source_text": "Set 30"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 459000.0,
+                "source_text": "459,000"
+            },
+            "total_money": {
+                "value": 459000.0,
+                "source_text": "459,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Trà",
+                "source_text": "Trà"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 3000.0,
+                "source_text": null
+            },
+            "total_money": {
+                "value": 6000.0,
+                "source_text": "6,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Lá Rong Biển",
+                "source_text": "Lá Rong Biển"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 24000.0,
+                "source_text": "24,000"
+            },
+            "total_money": {
+                "value": 24000.0,
+                "source_text": "24,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Nhà Hàng Aozora Sushi",
         "153 Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",

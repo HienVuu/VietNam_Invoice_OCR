@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": null,
+        "seller_or_manufacturer": "MINIMART AN AN, Chợ Sủi Phú Thị Gia Lâm",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 24000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "lăn gervenne 25ml",
+            "quantity": 1,
+            "unit": "CHA",
+            "unit_price": 24000,
+            "total_money": 24000,
+            "specs_ref": "8935212806862 No"
+        }
+    ],
     "raw_text_all": [
         "MINIMARTANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

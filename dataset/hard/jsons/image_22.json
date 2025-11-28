@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00078511",
+        "date": "2020-08-08",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 10600,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "PLAYMORE Kẹo The Vị Dưa Hấu Gói 12g",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 10600,
+            "total_money": 10600,
+            "specs_ref": "8859578600400"
+        }
+    ],
     "raw_text_all": [
         "VINH VINH QNH 86 Trần Phú",
         "Số 36 Đường Trần Phú, P. Cầm Tây",

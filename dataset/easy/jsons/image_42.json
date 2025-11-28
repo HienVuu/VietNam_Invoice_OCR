@@ -1,4 +1,44 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "000AC2212008001070",
+        "date": "2020-08-08",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 53000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Tương ớt chinsu 250g",
+            "quantity": 2,
+            "unit": "CHA",
+            "unit_price": 12000,
+            "total_money": 24000,
+            "specs_ref": null
+        },
+        {
+            "name": "Giấy posy rút",
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 15000,
+            "total_money": 15000,
+            "specs_ref": null
+        },
+        {
+            "name": "Kem ốc Merino Tiramisu",
+            "quantity": 1,
+            "unit": "cat",
+            "unit_price": 14000,
+            "total_money": 14000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

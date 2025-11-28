@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00197593",
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 184500.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "cả phê tan cao cấp Family Tchibo lọ 200g",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 184500.0,
+            "total_money": 184500.0,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "VM Phạm Ngọc Thạch",
         "TTTM Vincom Số 2 Phạm Ngọc Thạch",

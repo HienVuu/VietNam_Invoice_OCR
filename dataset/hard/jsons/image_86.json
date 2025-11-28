@@ -1,4 +1,75 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "HD130820-0042",
+            "source_text": "Số HD130820-0042"
+        },
+        "date": {
+            "value": "2020-08-13",
+            "source_text": "13/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "PHÔ MỎ",
+            "source_text": "PHÔ MỎ"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 30000,
+            "source_text": "30,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "đồng"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Trà chanh Up Sz 1",
+                "source_text": "Trà chanh Up Sz 1"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "total_money": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Hướng dương",
+                "source_text": "Hướng dương"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "total_money": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "PHÔ MỎ",
         "Tổ 7 khu tân lập 4 - P. cầm thủy",

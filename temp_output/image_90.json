@@ -1,4 +1,36 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "SONSS151",
+        "date": "2020-08-10",
+        "seller_or_manufacturer": "CỬA HÀNG NĂM OÁNH",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 63000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Trà Sửa Thái Ba Vì 350ml",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 9000,
+            "total_money": 9000,
+            "specs_ref": null
+        },
+        {
+            "name": "SC Star 100g",
+            "quantity": 12,
+            "unit": null,
+            "unit_price": 4500,
+            "total_money": 54000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "CỬA HÀNG NĂM OÁNH",
         "0869322496-02438765210",

@@ -1,4 +1,130 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AB221200804195",
+            "source_text": "Số GD: 000AB221200804195"
+        },
+        "date": {
+            "value": "2020-08-17",
+            "source_text": "17/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": {
+            "value": "lê thị hà",
+            "source_text": "(0) lê thị hà"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 1003000.0,
+            "source_text": "1,003,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Sữa bột pedia NT",
+                "source_text": "Sữa bột pedia NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "hop",
+                "source_text": "hop"
+            },
+            "unit_price": {
+                "value": 950000.0,
+                "source_text": "950,000"
+            },
+            "total_money": {
+                "value": 950000.0,
+                "source_text": "950,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Thuốc lá 3 số 555 NT",
+                "source_text": "Thuốc lá 3 số 555 NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 29000.0,
+                "source_text": "29,000"
+            },
+            "total_money": {
+                "value": 29000.0,
+                "source_text": "29,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Kem merino super teen NT",
+                "source_text": "Kem merino super teen NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "cha",
+                "source_text": "cha"
+            },
+            "unit_price": {
+                "value": 9000.0,
+                "source_text": "9,000"
+            },
+            "total_money": {
+                "value": 9000.0,
+                "source_text": "9,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "kem merino celano trân châu No",
+                "source_text": "kem merino celano trân châu No"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "CAY",
+                "source_text": "CAY"
+            },
+            "unit_price": {
+                "value": 15000.0,
+                "source_text": "15,000"
+            },
+            "total_money": {
+                "value": 15000.0,
+                "source_text": "15,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "ANTICULATED",
         "MINIMART ANAN",

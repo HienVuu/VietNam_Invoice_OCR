@@ -1,4 +1,84 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00047885",
+            "source_text": "1H:00047885"
+        },
+        "date": {
+            "value": "2020-08-14",
+            "source_text": "Ngày bán: 14/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce",
+            "source_text": "Vincommerce"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 98085.0,
+            "source_text": "98.085"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "TỔNG TIỀN PHẢI T. TOÁN"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Trứng gà tươi Dabaco hộp 10 quả",
+                "source_text": "Trưng gã tươi Dabaco hộp 10 quá"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 25600.0,
+                "source_text": "25.600"
+            },
+            "total_money": {
+                "value": 51200.0,
+                "source_text": "51.200"
+            },
+            "specs_ref": {
+                "value": "8936057560032",
+                "source_text": "8936057560032"
+            }
+        },
+        {
+            "name": {
+                "value": "Táo Ruby Star NZL PG Size 90-120",
+                "source_text": "VMNK Táo Ruby Star NZL PG S1ze 90-120"
+            },
+            "quantity": {
+                "value": 1.068,
+                "source_text": "1,068 KG"
+            },
+            "unit": {
+                "value": "KG",
+                "source_text": "KG"
+            },
+            "unit_price": {
+                "value": 64600.0,
+                "source_text": "64.600/KG"
+            },
+            "total_money": {
+                "value": 68993.0,
+                "source_text": "68.993"
+            },
+            "specs_ref": {
+                "value": "2656971010685",
+                "source_text": "2656971010685"
+            }
+        }
+    ],
     "raw_text_all": [
         "VM? ONH Dự án guỹ đất đường sắt",
         "DA QĐ dọc tuyến ĐS Tổ 3 Khu 2",

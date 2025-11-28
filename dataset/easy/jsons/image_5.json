@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00180852",
+        "date": "2020-08-10",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 49500,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Chả gio rẽ con tôm Vissan gói 300g",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 49500,
+            "total_money": 49500,
+            "specs_ref": "8934572281623"
+        }
+    ],
     "raw_text_all": [
         "1981 VM4 QNH 112 Thanh Niên",
         "Sở 112 Thanh Niên, P. Cảm Thành",

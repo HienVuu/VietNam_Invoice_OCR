@@ -1,4 +1,44 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "006AC2212008002217",
+        "date": "2020-02-19",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": "nguyễn thị thu thảo"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 281000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "3934673574327 Sửa đàn bò dâu VNM 116m tin",
+            "quantity": 20,
+            "unit": "hop",
+            "unit_price": 4500,
+            "total_money": 90000,
+            "specs_ref": null
+        },
+        {
+            "name": "8935057100019 kẹo dẻo bắp việt 400g NT",
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 17000,
+            "total_money": 17000,
+            "specs_ref": null
+        },
+        {
+            "name": "8934673188166 sữa optimun gold 3 HS 400g NT",
+            "quantity": 1,
+            "unit": "hop",
+            "unit_price": 174000,
+            "total_money": 174000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sửi Phú Thị Gia Làm",

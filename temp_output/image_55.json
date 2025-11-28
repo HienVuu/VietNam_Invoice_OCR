@@ -1,4 +1,19 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "000094",
+        "date": "2020-05-20",
+        "seller_or_manufacturer": "VGR QUINNANT.ART UNỆNH",
+        "buyer_or_project": "PHAM NGỌC THUY"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 75500,
+        "currency": "UND"
+    },
+    "items": [],
     "raw_text_all": [
         "Vietcombank",
         "TÊN ĐAỊ LY:",

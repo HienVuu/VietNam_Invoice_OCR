@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-13",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 30000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "VPP Loại 5K",
+            "quantity": 6,
+            "unit": null,
+            "unit_price": 5000,
+            "total_money": 30000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "NHÀ SÁCH GD-TC CẨM PHẢ",
         "Đc: 212 Đường Trần Phú-Cẩm Phả",

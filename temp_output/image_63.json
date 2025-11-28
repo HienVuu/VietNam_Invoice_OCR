@@ -1,4 +1,36 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 68000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "VBT hóa 9",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 30000.0,
+            "total_money": 30000.0,
+            "specs_ref": null
+        },
+        {
+            "name": "Tài liệu ỐT thi Ts",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 38000.0,
+            "total_money": 38000.0,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "NHÀ SÁCH GD-TC CẨM PHẢ",
         "Đc: 212 Đường Trấn Phú-Cẩm Phả",

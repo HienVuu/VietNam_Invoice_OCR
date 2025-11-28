@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "SON553333",
+        "date": "2020-08-11",
+        "seller_or_manufacturer": "CỬA HÀNG NĂM OÁNH Thôn Phú Timy, Xã Phù Thị, Huyện Gia Lâm, TP Hà Nội 086932496 ? 02438765210",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 200000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Giấy cân Posy",
+            "quantity": 5,
+            "unit": null,
+            "unit_price": 40000,
+            "total_money": 200000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "CỬA HÀNG NĂM OÁNH",
         "Thôn Phú Timy, Xã Phù Thị, Huyện Gia Lâm, TP Hà Nội",

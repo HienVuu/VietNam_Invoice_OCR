@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "2N212582002593",
+        "date": "2020-08-13",
+        "seller_or_manufacturer": "WINNART",
+        "buyer_or_project": null
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 100000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "GARENA100",
+            "quantity": null,
+            "unit": null,
+            "unit_price": 100000,
+            "total_money": 100000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Payời -",
         "WINNART",

@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00032512",
+        "date": "2020-08-12",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 22000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Samsung Triple Camera Chụp băng Galaxy M21",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 22000.0,
+            "total_money": 22000.0,
+            "specs_ref": "8809296883388"
+        }
+    ],
     "raw_text_all": [
         "VM- Cnh Tô 7, Khu Minh Tiến A",
         "Vincommerce",

@@ -1,4 +1,68 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AB2212008004236",
+        "date": "2020-08-17",
+        "seller_or_manufacturer": "MINIMART ANAN Chợ Súi Phi Thị Gia Lam",
+        "buyer_or_project": "Đặng Thị Thu Hương"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 475000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Ml omachi tôm 79g NT",
+            "quantity": 5,
+            "unit": "gói",
+            "unit_price": 6000,
+            "total_money": 30000,
+            "specs_ref": null
+        },
+        {
+            "name": "bánh cosy túi 576g NT",
+            "quantity": 1,
+            "unit": "gói",
+            "unit_price": 47000,
+            "total_money": 47000,
+            "specs_ref": null
+        },
+        {
+            "name": "tương ớt chinau chai 500g N0",
+            "quantity": 1,
+            "unit": "chai",
+            "unit_price": 20000,
+            "total_money": 20000,
+            "specs_ref": null
+        },
+        {
+            "name": "Tương ớt chinsu 250g NT",
+            "quantity": 1,
+            "unit": "chai",
+            "unit_price": 12000,
+            "total_money": 12000,
+            "specs_ref": null
+        },
+        {
+            "name": "sốt mayonnaise aj mayo NT",
+            "quantity": 1,
+            "unit": "túi",
+            "unit_price": 30000,
+            "total_money": 30000,
+            "specs_ref": null
+        },
+        {
+            "name": "Sửa chua Probi VNM 100g NT",
+            "quantity": 48,
+            "unit": "cai",
+            "unit_price": 7000,
+            "total_money": 336000,
+            "specs_ref": "Giá đăng ký: 312,000"
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Súi Phi Thị Gia Lam",

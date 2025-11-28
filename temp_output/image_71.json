@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "802512",
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ THUỐC BỆNH VIỆN ĐA KHOA THÀNH PHỐ VINH",
+        "buyer_or_project": "hà Kt"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 46000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Dưỡng tâm an thần",
+            "quantity": 40,
+            "unit": null,
+            "unit_price": 1150,
+            "total_money": 46000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "NHÀ THUỐC BỆNH VIỆN ĐA KHOA",
         "THÀNH PHỐ VINH",

@@ -1,4 +1,60 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AC2212008001880",
+        "date": "2020-08-13",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 128000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Giấy ăn VN airlines 1kg NT",
+            "quantity": 1,
+            "unit": "BIT",
+            "unit_price": 47000,
+            "total_money": 47000,
+            "specs_ref": null
+        },
+        {
+            "name": "kem merino chanh muối NT",
+            "quantity": 1,
+            "unit": "CAI",
+            "unit_price": 6000,
+            "total_money": 6000,
+            "specs_ref": null
+        },
+        {
+            "name": "Sữa chua nha đam 10cg NT",
+            "quantity": 4,
+            "unit": "HOP",
+            "unit_price": 6500,
+            "total_money": 26000,
+            "specs_ref": null
+        },
+        {
+            "name": "Sữa chua Probi VNM 100g NT",
+            "quantity": 4,
+            "unit": "CAI",
+            "unit_price": 6500,
+            "total_money": 26000,
+            "specs_ref": null
+        },
+        {
+            "name": "sữa chua vnm 100% NT",
+            "quantity": 4,
+            "unit": "HOP",
+            "unit_price": 5750,
+            "total_money": 23000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00073344",
+        "date": "14/08/2020",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": "Dự án KDC lấn biến cọc 8, P. Cảm Sơn"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 43800,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Kem hương sầu riêng Vinami Ik hộp 450m1",
+            "quantity": 1,
+            "unit": "hộp",
+            "unit_price": 43800,
+            "total_money": 43800,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "VM+ QNH Dự án KDC lấn biến cọc 8",
         "4",

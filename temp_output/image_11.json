@@ -1,4 +1,36 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "07346",
+        "date": "2019-09-23",
+        "seller_or_manufacturer": "Co.opFood",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 57000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Keo the Playmore dua hau",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 29800.0,
+            "total_money": 29800.0,
+            "specs_ref": null
+        },
+        {
+            "name": "Kem icewaffle socola 150m",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 27200.0,
+            "total_money": 27200.0,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Trung Du an Dau tu xay dung khu nha o H1",
         "tai Khu do thi moi Van Phu,",

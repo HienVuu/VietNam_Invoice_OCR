@@ -1,4 +1,36 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 14000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "bút TL Gel TP-08",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 3000.0,
+            "total_money": 3000.0,
+            "specs_ref": null
+        },
+        {
+            "name": "But chì kim 1504",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 11000.0,
+            "total_money": 11000.0,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "NHÀ SÁCH GD-TC CẨM PHẢ",
         "Đc: 212 Đường Trấn Phú-Cẩm Phả",

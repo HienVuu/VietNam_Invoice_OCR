@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00045992",
+        "date": "2020-08-12",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 5000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Dasam Khoáng 500ml (Nilon)",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 5000,
+            "total_money": 5000,
+            "specs_ref": "8935049500506"
+        }
+    ],
     "raw_text_all": [
         "VM4 QNH Tổ 8 Khu 3B Cầm Trung",
         "Tổ 8, Khu 38, P. Cảm Trung",

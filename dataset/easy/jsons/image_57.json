@@ -1,4 +1,79 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "SON55844",
+        "date": "2020-08-12",
+        "seller_or_manufacturer": "CỬA HÀNG NĂM OÁNH",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": 63000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Đường tinh luyện xuất khẩu 1kg",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 14000,
+            "total_money": 14000,
+            "specs_ref": null
+        },
+        {
+            "name": "Dầu Cái Lân 2L",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 49000,
+            "total_money": 49000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "CỬA HÀNG NĂM OÁNH",
         "Thôn Phú Thuy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",

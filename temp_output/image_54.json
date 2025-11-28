@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00032132",
+        "date": "2020-08-10",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 129000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "DOWNY NƯỚC XÃ HUYỀN BÍ TÚI 2,31/2,4L",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 159000,
+            "total_money": 159000,
+            "specs_ref": "4902430818902"
+        }
+    ],
     "raw_text_all": [
         "VIM ONH T67, Khu Minh Tiến A",
         "1",

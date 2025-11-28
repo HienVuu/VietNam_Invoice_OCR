@@ -1,4 +1,62 @@
 {
+    "document_type": null,
+    "general_info": {
+        "code": null,
+        "date": null,
+        "seller_or_manufacturer": null,
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": null,
+        "currency": null
+    },
+    "items": [],
     "raw_text_all": [
         "1",
         "E",

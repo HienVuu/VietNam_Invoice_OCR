@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AC2212008002149",
+        "date": "2020-08-18",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": "Vũ Thị quý"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 238008,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Bia 333 NT",
+            "quantity": 24,
+            "unit": "LON",
+            "unit_price": 9917,
+            "total_money": 238008,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "N",

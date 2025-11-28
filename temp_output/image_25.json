@@ -1,4 +1,52 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AC2212008001308",
+        "date": "2020-08-10",
+        "seller_or_manufacturer": "MINIMART ANAN Và Chợ Sủi Phú Thị Gia Làm Đại",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 169000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "sửa chua vnm 100% NT",
+            "quantity": 8,
+            "unit": "HOP",
+            "unit_price": 5750.0,
+            "total_money": 46000.0,
+            "specs_ref": "Barcode: 8934673616829, Đơn giá hiển thị: 6000"
+        },
+        {
+            "name": "Sửa chua đường VNM 100g NT",
+            "quantity": 8,
+            "unit": "HOP",
+            "unit_price": 5250.0,
+            "total_money": 42000.0,
+            "specs_ref": "Barcode: 8934673606820, Đơn giá hiển thị: 6000"
+        },
+        {
+            "name": "Sửa chua VNM ko đường NT",
+            "quantity": 1,
+            "unit": "HOP",
+            "unit_price": 6000.0,
+            "total_money": 6000.0,
+            "specs_ref": "Barcode: 8934673605823"
+        },
+        {
+            "name": "Sửa chua susu VNM NT",
+            "quantity": 12,
+            "unit": "HOP",
+            "unit_price": 6250.0,
+            "total_money": 75000.0,
+            "specs_ref": "Barcode: 8934673606813, Đơn giá hiển thị: 7000"
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Và Chợ Sủi Phú Thị Gia Làm Đại",

@@ -1,4 +1,188 @@
 {
+    "document_type": {
+        "value": "receipt",
+        "source_text": "PHIẾU TÍNH TIEN"
+    },
+    "general_info": {
+        "code": {
+            "value": "07414",
+            "source_text": "07414"
+        },
+        "date": {
+            "value": "2027-05-21",
+            "source_text": "Ngay: 21/05/2027"
+        },
+        "seller_or_manufacturer": {
+            "value": "Co. OPMart Hau GIANG",
+            "source_text": "Co. OPMart Hau GIANG"
+        },
+        "buyer_or_project": {
+            "value": "Au Thi KIM Dung",
+            "source_text": "Vang) Au Thi KIM Dung;"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": {
+            "value": 3564200.4,
+            "source_text": "3,564,200.40"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "Tong so tien thanh toan: 3,564,200.40"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "NG LIX dam dac 3,8kg",
+                "source_text": "NG LIX dam dac 3,8kg"
+            },
+            "quantity": {
+                "value": null,
+                "source_text": null
+            },
+            "unit": {
+                "value": "kg",
+                "source_text": "3,8kg"
+            },
+            "unit_price": {
+                "value": 35000.0,
+                "source_text": "35,000.00"
+            },
+            "total_money": {
+                "value": 89000.0,
+                "source_text": "89,000.00"
+            },
+            "specs_ref": {
+                "value": "VATIVAL",
+                "source_text": "VATIVAL"
+            }
+        },
+        {
+            "name": {
+                "value": "kor c10seứp bác",
+                "source_text": "kor c10seứp bác"
+            },
+            "quantity": {
+                "value": 6,
+                "source_text": "219,000.00 / 36,500.00"
+            },
+            "unit": {
+                "value": null,
+                "source_text": null
+            },
+            "unit_price": {
+                "value": 36500.0,
+                "source_text": "36,500.00"
+            },
+            "total_money": {
+                "value": 219000.0,
+                "source_text": "219,000.00"
+            },
+            "specs_ref": {
+                "value": "VATIOX",
+                "source_text": "VATIOX"
+            }
+        },
+        {
+            "name": {
+                "value": "Trung vit 6t/hop.Y, food",
+                "source_text": "Trung vit 6t/hop.Y, food"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "hop",
+                "source_text": "6t/hop"
+            },
+            "unit_price": {
+                "value": 18600.0,
+                "source_text": "18,600.00"
+            },
+            "total_money": {
+                "value": 18600.0,
+                "source_text": "18,600.00"
+            },
+            "specs_ref": {
+                "value": "VATCH5%",
+                "source_text": "VATCH5%"
+            }
+        },
+        {
+            "name": {
+                "value": "Trung ga 6t/hop-v.1600",
+                "source_text": "Trung ga 6t/hop-v.1600"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "15,600.00 / 15,600.00 (inferred)"
+            },
+            "unit": {
+                "value": "hop",
+                "source_text": "6t/hop"
+            },
+            "unit_price": {
+                "value": 15600.0,
+                "source_text": "15,600.00"
+            },
+            "total_money": {
+                "value": 15600.0,
+                "source_text": "15,600.00"
+            },
+            "specs_ref": {
+                "value": "VATCHES",
+                "source_text": "VATCHES"
+            }
+        }
+    ],
     "raw_text_all": [
         "Co. OPMart Hau GIANG",
         "Mà so thue: 0305781492",

@@ -1,4 +1,52 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "SON350929",
+        "date": "2020-07-27",
+        "seller_or_manufacturer": "Thưng Hà Nội",
+        "buyer_or_project": "khách lẻ"
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 81000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "PC817 SHARP",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 2500,
+            "total_money": 2500,
+            "specs_ref": null
+        },
+        {
+            "name": "Module Cảm Biến Tiệm Cận U12A3- 1",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 69000,
+            "total_money": 69000,
+            "specs_ref": null
+        },
+        {
+            "name": "[Xã KHO] Phíp Đồng Đục Lỗ 2 Mặt PCB Xanh Tốt 1.6mm - 7x9mmpcb2mat- 7",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 9000,
+            "total_money": 9000,
+            "specs_ref": null
+        },
+        {
+            "name": "Header 2.54mm Đực Thắng - 2 Chân",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 500,
+            "total_money": 500,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Thưng Hà Nội",
         "024.2021.4848",

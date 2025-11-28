@@ -1,4 +1,107 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AD2212008000601",
+            "source_text": "000AD2212008000601"
+        },
+        "date": {
+            "value": "2020-08-09",
+            "source_text": "09/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "sieu thi bach hoa tong hop",
+            "source_text": "sieu thi bach hoa tong hop"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 300000,
+            "source_text": "300,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Gà nguyễn con HQ (147) NT",
+                "source_text": "Gà nguyễn con HQ (147) NT"
+            },
+            "quantity": {
+                "value": 1.0,
+                "source_text": "1.000"
+            },
+            "unit": {
+                "value": "ING",
+                "source_text": "ING"
+            },
+            "unit_price": {
+                "value": 65000,
+                "source_text": "65,000"
+            },
+            "total_money": {
+                "value": 71175,
+                "source_text": "71,175"
+            },
+            "specs_ref": {
+                "value": "290616080000",
+                "source_text": "290616080000"
+            }
+        },
+        {
+            "name": {
+                "value": "Đầu cả hối Amigo 500g T0",
+                "source_text": "Đầu cả hối Amigo 500g T0"
+            },
+            "quantity": null,
+            "unit": {
+                "value": "GÓI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 40600,
+                "source_text": "40,600"
+            },
+            "total_money": {
+                "value": 120000,
+                "source_text": "120,000"
+            },
+            "specs_ref": {
+                "value": "038935106810ses",
+                "source_text": "038935106810ses"
+            }
+        },
+        {
+            "name": {
+                "value": "Chả giỏ ? chả giò thịt Vissan 500g T2",
+                "source_text": "Chả giỏ ? chả giò thịt Vissan 500g T2"
+            },
+            "quantity": null,
+            "unit": {
+                "value": "PSS",
+                "source_text": "PSS"
+            },
+            "unit_price": {
+                "value": 43200,
+                "source_text": "43,200"
+            },
+            "total_money": {
+                "value": 43200,
+                "source_text": "43,200"
+            },
+            "specs_ref": {
+                "value": "8934572261801",
+                "source_text": "8934572261801"
+            }
+        }
+    ],
     "raw_text_all": [
         "sieu thi bach hoa tong hop",
         "Sở 5 Cẩm Tây - Cẩm Phá - QN",

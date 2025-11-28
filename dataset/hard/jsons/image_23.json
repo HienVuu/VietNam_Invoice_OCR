@@ -1,4 +1,37 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": {
+            "value": "600118",
+            "source_text": "SỐ II. ĐÚN: 600118"
+        },
+        "date": {
+            "value": "2020-05-20",
+            "source_text": "NGAY: 20/05/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "UGH VINNART.ANT UNINH",
+            "source_text": "TÊN ĐRỊ LY: UGH VINNART.ANT UNINH"
+        },
+        "buyer_or_project": {
+            "value": "THỊ PHƯƠNG THAO/BUIL",
+            "source_text": "TÊN: THỊ PHƯƠNG THAO/BUIL"
+        }
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 171500,
+            "source_text": "UND171,500"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "UND171,500"
+        }
+    },
+    "items": [],
     "raw_text_all": [
         "Vietcombank",
         "TÊN ĐRỊ LY:",

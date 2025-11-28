@@ -1,4 +1,52 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "0450197",
+        "date": "2020-08-12",
+        "seller_or_manufacturer": "Enter",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {},
+    "financials": {
+        "total_payment": 415000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "BÓNG LĂN CUỐN MÚT",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 9000,
+            "total_money": 9000,
+            "specs_ref": "MM DISC, P000258691 -6.000"
+        },
+        {
+            "name": "KM BU-DONUT%2",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 12000,
+            "total_money": 12000,
+            "specs_ref": "MM DISC P000258691-8.000"
+        },
+        {
+            "name": "BÁNH HÁN QUỐC 120G",
+            "quantity": 3,
+            "unit": null,
+            "unit_price": 13000,
+            "total_money": 39000,
+            "specs_ref": null
+        },
+        {
+            "name": "BANH MI P. MAI BO TOI",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 25000,
+            "total_money": 25000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Enter",
         "44274",

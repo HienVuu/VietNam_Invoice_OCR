@@ -1,4 +1,197 @@
 {
+    "document_type": {
+        "value": "invoice",
+        "source_text": "HÓA ĐƠN BÁN HÀNG"
+    },
+    "general_info": {
+        "code": {
+            "value": null,
+            "source_text": null
+        },
+        "date": {
+            "value": null,
+            "source_text": null
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN Chợ Sủi Phú Thị Gia Lâm",
+            "source_text": "MINIMARTANAN Chợ Sủi Phú Thị Gia Lâm"
+        },
+        "buyer_or_project": {
+            "value": null,
+            "source_text": null
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 116000,
+            "source_text": "116,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "8936136161334 mì omachi 102 bò nấu dưa ch No",
+                "source_text": "8936136161334 mì omachi 102 bò nấu dưa ch No"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "total_money": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "8936136161440 mì omachi bò hầm nấu gói 10 No",
+                "source_text": "8936136161440 mì omachi bò hầm nấu gói 10 No"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "total_money": {
+                "value": 10000,
+                "source_text": "10,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Trong 8934680045681 bánh mì bò kđ NT",
+                "source_text": "Trong 8934680045681 bánh mì bò kđ NT"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "goi",
+                "source_text": "goi"
+            },
+            "unit_price": {
+                "value": 16000,
+                "source_text": "16,000"
+            },
+            "total_money": {
+                "value": 8000,
+                "source_text": "8,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "291005570000 Mì omachi bò 82g NT",
+                "source_text": "291005570000 Mì omachi bò 82g NT"
+            },
+            "quantity": {
+                "value": 5,
+                "source_text": "5"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 6000,
+                "source_text": "6,000"
+            },
+            "total_money": {
+                "value": 30000,
+                "source_text": "30,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "29101456000 Sữa kun socola, đường 180ml NT",
+                "source_text": "29101456000 Sữa kun socola, đường 180ml NT"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": {
+                "value": "HOP",
+                "source_text": "HOP"
+            },
+            "unit_price": {
+                "value": 6250,
+                "source_text": "6,250"
+            },
+            "total_money": {
+                "value": 25000,
+                "source_text": "25,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "29101657000 Sữa kun cam, dâu 180ml NT",
+                "source_text": "29101657000 Sữa kun cam, dâu 180ml NT"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": {
+                "value": "CAI",
+                "source_text": "CAI"
+            },
+            "unit_price": {
+                "value": 6250,
+                "source_text": "6,250"
+            },
+            "total_money": {
+                "value": 25000,
+                "source_text": "25,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        }
+    ],
     "raw_text_all": [
         "MINIMARTANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

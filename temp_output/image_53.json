@@ -1,4 +1,19 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "000635",
+        "date": "2000-05-01",
+        "seller_or_manufacturer": "VILVINNAT 4%",
+        "buyer_or_project": "LÀ THỊ HÌNH NGỌC"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 61400,
+        "currency": "VND"
+    },
+    "items": [],
     "raw_text_all": [
         "Vietcombank",
         "Tên Mại Lý",

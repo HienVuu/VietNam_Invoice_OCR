@@ -1,4 +1,151 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AB212008004248",
+        "date": "2020-08-17",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": 502000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Thạch rau cầu Long cai",
+            "quantity": 2,
+            "unit": "cai",
+            "unit_price": 8000,
+            "total_money": 16000,
+            "specs_ref": null
+        },
+        {
+            "name": "Bánh Custas 6p 138g NT",
+            "quantity": 1,
+            "unit": "got",
+            "unit_price": 28000,
+            "total_money": 28000,
+            "specs_ref": null
+        },
+        {
+            "name": "Bánh Custas 12p NT",
+            "quantity": 1,
+            "unit": "Hop",
+            "unit_price": 50000,
+            "total_money": 50000,
+            "specs_ref": null
+        },
+        {
+            "name": "keo lạc, dồi vừng siu châu, NT",
+            "quantity": 4,
+            "unit": "GOI",
+            "unit_price": 15000,
+            "total_money": 60000,
+            "specs_ref": null
+        },
+        {
+            "name": "Thach joy VF hoa quả 800g NT",
+            "quantity": 1,
+            "unit": "goi",
+            "unit_price": 20000,
+            "total_money": 20000,
+            "specs_ref": null
+        },
+        {
+            "name": "kẹo bibica chewgum gói 270g No",
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 22000,
+            "total_money": 22000,
+            "specs_ref": null
+        },
+        {
+            "name": "kẹo sữa alpenliebe 360g NT",
+            "quantity": 1,
+            "unit": "goi",
+            "unit_price": 28000,
+            "total_money": 28000,
+            "specs_ref": null
+        },
+        {
+            "name": "bánh gạo an gói 151g N0",
+            "quantity": 2,
+            "unit": "goi",
+            "unit_price": 15000,
+            "total_money": 30000,
+            "specs_ref": null
+        },
+        {
+            "name": "Thạch sửa chua ví, odeli 1k NT",
+            "quantity": 1,
+            "unit": "GO1",
+            "unit_price": 30000,
+            "total_money": 30000,
+            "specs_ref": null
+        },
+        {
+            "name": "kẹo chanh muối vitamin c Th No",
+            "quantity": 1,
+            "unit": "goi",
+            "unit_price": 16000,
+            "total_money": 16000,
+            "specs_ref": null
+        },
+        {
+            "name": "xúc xích cp 8,10 dài NT",
+            "quantity": 2,
+            "unit": "tui",
+            "unit_price": 92000,
+            "total_money": 46000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "Diễm mọ",
         "SIX",

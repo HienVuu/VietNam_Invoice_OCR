@@ -1,4 +1,60 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "000AC2212008001594",
+        "date": "2020-08-12",
+        "seller_or_manufacturer": "MINIMART ANAN",
+        "buyer_or_project": "lê thị dung"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 105000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "BVS Libera 8p NT",
+            "quantity": 1,
+            "unit": "CAI",
+            "unit_price": 13000,
+            "total_money": 13000,
+            "specs_ref": null
+        },
+        {
+            "name": "DX Sunsilk dây NT",
+            "quantity": 4,
+            "unit": "goi",
+            "unit_price": 8000,
+            "total_money": 32000,
+            "specs_ref": null
+        },
+        {
+            "name": "DG Sunsilk dây NT",
+            "quantity": 2,
+            "unit": "gor",
+            "unit_price": 10000,
+            "total_money": 20000,
+            "specs_ref": null
+        },
+        {
+            "name": "NRC sunlight chanh túi 1,41 NT",
+            "quantity": 1,
+            "unit": "goi",
+            "unit_price": 10000,
+            "total_money": 10000,
+            "specs_ref": null
+        },
+        {
+            "name": null,
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 30000,
+            "total_money": 30000,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "MINIMART ANAN",
         "Chợ Sủi Phú Thị Gia Lâm",

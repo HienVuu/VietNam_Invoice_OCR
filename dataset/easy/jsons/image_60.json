@@ -1,4 +1,33 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "source_text": "14/08/2020",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 20000,
+        "source_text": "20.000d",
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Lê gô bé",
+            "source_text": "Lê gô bé",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 20000,
+            "source_text_unit_price": "20.000",
+            "total_money": 20000,
+            "source_text_total_money": "20.000",
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "NHÀ SÁCH GD-TC CẨM PHẢ",
         "Đc: 212 Đường Trần Phú-Cẩm Phả",

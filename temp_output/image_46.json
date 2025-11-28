@@ -1,4 +1,58 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00046000",
+            "source_text": "01:00046000"
+        },
+        "date": {
+            "value": "2020-08-12",
+            "source_text": "12/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce",
+            "source_text": "Vincommerce"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 22000.0,
+            "source_text": "22.000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "OKAMURA dung cu cao lưới as-tczp",
+                "source_text": "OKAMURA dung cu cao lưới as-tczp"
+            },
+            "quantity": {
+                "value": 1.0,
+                "source_text": "5"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 22000.0,
+                "source_text": "22.000"
+            },
+            "total_money": {
+                "value": 22000.0,
+                "source_text": "22.000"
+            },
+            "specs_ref": {
+                "value": "4983435758400",
+                "source_text": "4983435758400"
+            }
+        }
+    ],
     "raw_text_all": [
         "VIA- ONH Tố 8 Khu 38 Cảm Trung",
         "Tổ 8, Khu 38, P. Câm Trung",

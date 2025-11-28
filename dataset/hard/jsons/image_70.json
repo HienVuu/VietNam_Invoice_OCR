@@ -1,4 +1,28 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00116272200226369",
+        "date": "2020-08-13",
+        "seller_or_manufacturer": "Satra Group Satrafoods 2B Đường Bình Lợi Xã Bình Lợi, Phường 13, Quận Bình Thạnh",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 43500.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "CA SABA HAP SG FOOD KHAY 300G",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 43500.0,
+            "total_money": 43500.0,
+            "specs_ref": "08936013233826 VAT: Y"
+        }
+    ],
     "raw_text_all": [
         "Satra Group",
         "Satrafoods 2B Đường Bình Lợi",

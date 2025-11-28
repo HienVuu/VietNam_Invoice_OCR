@@ -1,4 +1,101 @@
 {
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00046086",
+            "source_text": "11:00046086"
+        },
+        "date": {
+            "value": "2020-08-13",
+            "source_text": "13/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce",
+            "source_text": "Vincommerce"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": {
+            "value": 179000,
+            "source_text": "179.000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "HÓA ƠN BÁN HÀNG"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "VÌ HOME Ô THỜI TRANG CHỐNG UV(4 MÀU)",
+                "source_text": "VÌ HOME Ô THỜI TRANG CHỐNG UV(4 MÀU)"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 179000,
+                "source_text": "179.000"
+            },
+            "total_money": {
+                "value": 179000,
+                "source_text": "179.000"
+            },
+            "specs_ref": {
+                "value": "8934954007094",
+                "source_text": "8934954007094"
+            }
+        }
+    ],
     "raw_text_all": [
         "VIA% ONH Tổ 8 Khu 3B Cầm Trung",
         "Tổ 8, Khu 38, P. Cầm Trung",

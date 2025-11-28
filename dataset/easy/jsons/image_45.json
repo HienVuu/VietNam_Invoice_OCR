@@ -1,4 +1,28 @@
 {
+    "document_type": "receipt",
+    "general_info": {
+        "code": "B130820004 - INDOCHINA-PC",
+        "date": "2020-08-13",
+        "seller_or_manufacturer": "THE BLUES INDOCHINA PLAZA",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 299000.0,
+        "currency": "VNĐ"
+    },
+    "items": [
+        {
+            "name": "893491202519 QN1-JP1L16-026",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 299000.0,
+            "total_money": 299000.0,
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
         "THE BLUES",
         "Cửa hàng: INDOCHINA PLAZA",
