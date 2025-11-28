@@ -149,86 +149,138 @@ def extract_invoice_fields(raw_texts):
     full_text = "\n".join(raw_texts)
 
     prompt = f"""
-    Bạn là chuyên gia xử lý dữ liệu hóa đơn (Invoice/Receipt).
-    Dưới đây là văn bản OCR thô từ một hóa đơn:
+    Bạn là chuyên gia xử lý và trích xuất dữ liệu từ đa dạng tài liệu (Hóa đơn, Biên lai, Bảng thông số kỹ thuật, Catalogue vật liệu, Bản vẽ kỹ thuật).
+    Dưới đây là văn bản OCR thô từ tài liệu:
     --- BẮT ĐẦU ---
     {full_text}
     --- KẾT THÚC ---
 
-    NHIỆM VỤ: Trích xuất tối đa thông tin có thể tìm thấy và điền vào JSON dưới đây.
-    QUY TẮC:
-    - Trường nào không tìm thấy thông tin trong ảnh -> Trả về null (không được bịa ra).
-    - Các con số (tiền, lượng) -> Để dạng số (number), bỏ dấu phẩy ngăn cách nghìn.
-    - Ngày tháng -> Chuẩn hóa thành DD/MM/YYYY nếu có thể.
+    NHIỆM VỤ: Phân tích nội dung và trích xuất thông tin vào JSON theo cấu trúc dưới đây. Nếu là bản vẽ kỹ thuật, trích xuất thông tin metadata, features, tables như mô tả.
+
+    QUY TẮC QUAN TRỌNG:
+    1. Xử lý số liệu:
+       - Với Hóa đơn (tiền): Để dạng số, bỏ dấu phân cách nghìn.
+       - Với Kỹ thuật (kích thước, trọng lượng): GIỮ NGUYÊN cả số và đơn vị (ví dụ: "10.5 mm", "20 inch").
+    2. Xử lý Bảng (Table):
+       - Nếu gặp bảng thông số kỹ thuật hoặc bảng revision (nhiều hàng/cột), hãy trích xuất vào trường "technical_tables" hoặc "revision_table".
+       - Giữ nguyên cấu trúc hàng/cột của bảng.
+    3. Chuẩn hóa:
+       - Đơn vị (unit): Xác định từ ghi chú như "DIMENSIONS ARE IN MILLIMETERS" → "mm".
+       - Ngày: Chuẩn ISO (YYYY-MM-DD), chuyển từ MM/DD/YYYY hoặc D/M/YYYY.
+       - Số: float hoặc int.
+    4. Provenance: Cho mỗi trường trích xuất, bao gồm source_text từ OCR tokens.
+    5. Nếu trường nào không có thông tin -> Trả về null.
 
     CẤU TRÚC JSON YÊU CẦU:
     {{
-        "document_type": "Loại tài liệu (invoice, receipt, prescription, clothing_receipt, fuel_receipt, etc.)",
-        "seller": {{
-            "name": "Tên đơn vị bán hàng",
-            "tax_id": "Mã số thuế bên bán (MST)",
-            "address": "Địa chỉ bên bán",
-            "phone": "Số điện thoại",
-            "bank_account": "Số tài khoản ngân hàng (nếu có)"
+        "document_type": "Phân loại tài liệu: invoice, receipt, technical_spec, datasheet, packing_list, technical_drawing, etc.",
+        
+        // --- PHẦN DÀNH CHO HÓA ĐƠN / MUA BÁN ---
+        "general_info": {{
+            "code": "Số hiệu tài liệu (Invoice No / Spec No)",
+            "date": "Ngày tháng (DD/MM/YYYY)",
+            "seller_or_manufacturer": "Tên nhà cung cấp hoặc Nhà sản xuất",
+            "buyer_or_project": "Tên người mua hoặc Tên dự án"
         }},
-        "buyer": {{
-            "name": "Tên người mua / Đơn vị mua",
-            "tax_id": "Mã số thuế bên mua",
-            "address": "Địa chỉ bên mua"
+        
+        // --- PHẦN DÀNH CHO THÔNG SỐ KỸ THUẬT ---
+        "technical_specs": [
+            // Trích xuất các thông số lẻ (không nằm trong bảng)
+            {{
+                "property": "Tên thông số (VD: Material, Finish, Projection Method)",
+                "value": "Giá trị kèm đơn vị (VD: Alum 6061-T6, Anodize (Black) 5~10(µm), Third Angle Projection)",
+                "source_text": "Văn bản nguồn từ OCR (VD: MATERIAL Alum 6061-T6)"
+            }}
+        ],
+        "technical_tables": [
+            // Dùng cho các bảng kích thước, bảng tra trọng lượng, v.v.
+            {{
+                "table_name": "Tên bảng (nếu có, VD: Bảng kích thước ống)",
+                "headers": ["Tên cột 1", "Tên cột 2", "Tên cột 3"],
+                "rows": [
+                    ["Giá trị hàng 1 cột 1", "Giá trị hàng 1 cột 2", "Giá trị hàng 1 cột 3"],
+                    ["Giá trị hàng 2 cột 1", "Giá trị hàng 2 cột 2", "Giá trị hàng 2 cột 3"]
+                ]
+            }}
+        ],
+
+        // --- PHẦN DÀNH CHO BẢN VẼ KỸ THUẬT ---
+        "technical_drawing": {{
+            "metadata": {{
+                "title": "Tiêu đề bản vẽ (string)",
+                "drawing_no": "Số bản vẽ (string)",
+                "revision": "Số revision (string)",
+                "scale": "Tỷ lệ (string, VD: '1:1')",
+                "projection": "Phương pháp chiếu (string, VD: 'THIRD ANGLE PROJECTION')",
+                "size": "Kích thước (string, VD: 'C')",
+                "format_rev": "Revision định dạng (string, VD: 'A')",
+                "ges_pn": "GES PN (string)",
+                "material": "Vật liệu (string)",
+                "finish": "Hoàn thiện (string + numeric range)",
+                "tolerances": {{
+                    "hole_diameter": "Dung sai đường kính lỗ (string)",
+                    "edge": "Dung sai cạnh (string)",
+                    "universal": "Dung sai phổ quát (string)"
+                }},
+                "dimensions_unit": "Đơn vị kích thước (string, VD: 'mm')",
+                "sheet": "Trang (string, VD: '1 of 1')",
+                "organization": "Tổ chức (string)",
+                "confidentiality": "Bảo mật (string)"
+            }},
+            "approvals": {{
+                "drawn_by": {{
+                    "name": "Người vẽ (string)",
+                    "date": "Ngày vẽ (ISO YYYY-MM-DD)"
+                }},
+                "engr": {{
+                    "name": "Kỹ sư (string)",
+                    "date": "Ngày kỹ sư (ISO YYYY-MM-DD)"
+                }},
+                "checked_by": {{
+                    "name": "Người kiểm tra (string)",
+                    "date": "Ngày kiểm tra (ISO YYYY-MM-DD)"
+                }}
+            }},
+            "notes": [
+                "Ghi chú 1 (string)",
+                "Ghi chú 2 (string)"
+            ],
+            "drawing_dimensions": {{
+                "hole_features": [
+                    "Mô tả lỗ 1 (string)",
+                    "Mô tả lỗ 2 (string)"
+                ],
+                "radial_features": [
+                    "Mô tả bán kính 1 (string)",
+                    "Mô tả bán kính 2 (string)"
+                ],
+                "angular_features": [
+                    "Mô tả góc 1 (string)"
+                ],
+                "linear_dimensions_sample": [
+                    "Kích thước tuyến tính 1 (float)",
+                    "Kích thước tuyến tính 2 (float)"
+                ]
+            }}
         }},
-        "invoice_info": {{
-            "code": "Số hóa đơn (Invoice No)",
-            "symbol": "Ký hiệu/Mẫu số (Serial No)",
-            "date": "Ngày lập hóa đơn",
-            "time": "Giờ in hóa đơn (nếu có)",
-            "cashier": "Tên thu ngân (Cashier)",
-            "table_no": "Số bàn (dùng cho nhà hàng)"
+
+        // --- PHẦN CHI TIẾT MUA HÀNG (GIỮ NGUYÊN TỪ CŨ) ---
+        "financials": {{
+            "total_payment": "Tổng tiền thanh toán",
+            "currency": "Đơn vị tiền tệ (VND, USD...)"
         }},
         "items": [
             {{
-                "sku": "Mã hàng hóa (nếu có)",
-                "name": "Tên hàng hóa/dịch vụ",
-                "unit": "Đơn vị tính (Cái, Lon, Kg...)",
-                "quantity": 1,
+                "name": "Tên hàng hóa",
+                "quantity": 0,
+                "unit": "ĐVT",
                 "unit_price": 0,
-                "discount": 0,
-                "tax_rate": "Thuế suất từng món (5%, 8%, 10%... nếu có)",
-                "total_money": 0
+                "total_money": 0,
+                "specs_ref": "Ghi chú kỹ thuật kèm theo món hàng (nếu có)"
             }}
-        ],
-        "financials": {{
-            "subtotal": "Tổng tiền hàng (trước thuế)",
-            "total_vat_amount": "Tổng tiền thuế VAT",
-            "total_discount": "Tổng tiền chiết khấu",
-            "shipping_fee": "Phí vận chuyển (nếu có)",
-            "total_payment": "Tổng cộng thanh toán (Final Amount)",
-            "amount_in_words": "Số tiền viết bằng chữ"
-        }},
-        "prescription_info": {{
-            "patient_name": "Tên bệnh nhân",
-            "doctor_name": "Tên bác sĩ",
-            "medications": [
-                {{
-                    "name": "Tên thuốc",
-                    "dosage": "Liều lượng",
-                    "quantity": 0
-                }}
-            ]
-        }},
-        "clothing_info": {{
-            "brand": "Thương hiệu",
-            "size": "Kích cỡ",
-            "color": "Màu sắc",
-            "material": "Chất liệu"
-        }},
-        "fuel_info": {{
-            "fuel_type": "Loại nhiên liệu",
-            "liters": 0,
-            "price_per_liter": 0
-        }}
+        ]
     }}
     """
-
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     data = {
@@ -267,6 +319,9 @@ if __name__ == '__main__':
 
     all_texts = []
     for img_path in args.image_paths:
+        if not os.path.exists(img_path):
+            print(f"Error: Image file '{img_path}' does not exist. Please check the path.")
+            continue
         boxes, texts = predict(
             recognitor=recognitor,
             detector=detector,

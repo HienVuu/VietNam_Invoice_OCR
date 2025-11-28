@@ -1,6 +1,4 @@
-# TODO for Cleaning up run.py
-
-- [x] Remove old functions: parse_texts, parse_body_to_columns, predict_with_structure, parse_table_html_to_json
-- [x] Update extract_invoice_fields: Modify prompt to extract total_amount and default quantity to 1 if not clear
-- [x] Simplify main block: Remove PPStructure logic, keep only OCR prediction, sort texts, extract fields, save cleaned JSON
-- [x] Verify the changes by running the script (if possible)
+- [ ] Update technical_specs in prompt to include source_text for each spec
+- [ ] Restructure technical_drawing in prompt to match example: metadata, approvals, notes, drawing_dimensions
+- [ ] Ensure prompt emphasizes detailed extraction for technical drawings while keeping invoice logic
+- [ ] Test the updated prompt with a technical drawing image
