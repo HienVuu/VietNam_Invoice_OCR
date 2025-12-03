@@ -10,12 +10,12 @@
             "source_text": "NGAY: 20/05/2020"
         },
         "seller_or_manufacturer": {
-            "value": "UGH VINNART.ANT UNINH",
-            "source_text": "TÊN ĐRỊ LY: UGH VINNART.ANT UNINH"
+            "value": "VGH_VINNART_4987_UNINH",
+            "source_text": "TÊN ĐẠI LÝ: VGH_VINNART_4987_UNINH"
         },
         "buyer_or_project": {
-            "value": "THỊ PHƯƠNG THAO/BUIL",
-            "source_text": "TÊN: THỊ PHƯƠNG THAO/BUIL"
+            "value": "THỊ PHƯƠNG THẢO/BÙI",
+            "source_text": "TÊN: THỊ PHƯƠNG THẢO/BÙI"
         }
     },
     "technical_specs": null,
@@ -24,11 +24,11 @@
     "financials": {
         "total_payment": {
             "value": 171500,
-            "source_text": "UND171,500"
+            "source_text": "VND171,500"
         },
         "currency": {
             "value": "VND",
-            "source_text": "UND171,500"
+            "source_text": "VND171,500"
         }
     },
     "items": [],

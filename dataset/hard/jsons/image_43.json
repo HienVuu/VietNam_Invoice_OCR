@@ -1,26 +1,39 @@
 {
     "document_type": "invoice",
+    "document_type_source_text": "HÓA ƠN BẢN HĂNG",
     "general_info": {
-        "code": "00032512",
+        "code": "09025438",
+        "code_source_text": "NYBH:09025438",
         "date": "2020-08-12",
+        "date_source_text": "12/08/2020",
         "seller_or_manufacturer": "Vincommerce",
-        "buyer_or_project": null
+        "seller_or_manufacturer_source_text": "VM- Cnh Tô 7, Khu Minh Tiến A\nVincommerce\n167, Khu Minh Tiền A\nP. Cầm Bình, TP. Gầm Pha, ANH\n02471080366-61561",
+        "buyer_or_project": null,
+        "buyer_or_project_source_text": null
     },
     "technical_specs": [],
     "technical_tables": [],
     "technical_drawing": null,
     "financials": {
-        "total_payment": 22000.0,
-        "currency": "VND"
+        "total_payment": 22000,
+        "total_payment_source_text": "22.000",
+        "currency": "VND",
+        "currency_source_text": null
     },
     "items": [
         {
-            "name": "Samsung Triple Camera Chụp băng Galaxy M21",
+            "name": "Nước uống bị sữa Pororo chai 235ml",
+            "name_source_text": "Nước uống bị sữa Pororo chai 235ml",
             "quantity": 1,
+            "quantity_source_text": "1",
             "unit": null,
-            "unit_price": 22000.0,
-            "total_money": 22000.0,
-            "specs_ref": "8809296883388"
+            "unit_source_text": null,
+            "unit_price": 22000,
+            "unit_price_source_text": "22.000",
+            "total_money": 22000,
+            "total_money_source_text": "22.000",
+            "specs_ref": null,
+            "specs_ref_source_text": null
         }
     ],
     "raw_text_all": [

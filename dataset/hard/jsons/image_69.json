@@ -4,7 +4,7 @@
         "code": null,
         "date": "2020-07-13",
         "seller_or_manufacturer": "MINI MART",
-        "buyer_or_project": "khách hàng lỏ"
+        "buyer_or_project": "khách hàng lẻ"
     },
     "technical_specs": [],
     "technical_tables": [],
@@ -15,39 +15,39 @@
     },
     "items": [
         {
-            "name": "ONG 8 TUY",
+            "name": "HẠT NÊM KNORR THỊT THĂN-XƯƠNG ỐNG & TỦY 350GR",
             "quantity": 2,
             "unit": null,
             "unit_price": 25000,
             "total_money": 50000,
-            "specs_ref": "350GR"
+            "specs_ref": null
         },
         {
-            "name": "XUXIE-RM VI HEO HAM",
+            "name": "XÚC XÍCH XUXIFARM VỊ HEO HẦM NẤM BÀO NGƯ 300GR",
             "quantity": 1,
             "unit": "Toon",
             "unit_price": 20000,
             "total_money": 29000,
-            "specs_ref": "NĂM BẢO NGŨ 6000GN"
+            "specs_ref": null
         },
         {
-            "name": "Xuc Xich Everyday Heo Tiet",
+            "name": "XÚC XÍCH EVERYDAY HEO TIỆT TRÙNG 250GR",
             "quantity": 3,
             "unit": "GOI",
             "unit_price": 25000,
             "total_money": 25000,
-            "specs_ref": "TRUNG 250GR"
+            "specs_ref": null
         },
         {
-            "name": "MÌ AN LIÊN HẢO HẢO TỒM CHUA CÂY",
+            "name": "MÌ ĂN LIỀN HẢO HẢO TÔM CHUA CAY 75GR",
             "quantity": 10,
             "unit": "GOI",
             "unit_price": 3500,
             "total_money": 35000,
-            "specs_ref": "75GR"
+            "specs_ref": null
         },
         {
-            "name": "pho bo chinsu",
+            "name": "PHO BO CHINSU",
             "quantity": 3,
             "unit": "GOI",
             "unit_price": 8000,
@@ -55,47 +55,47 @@
             "specs_ref": null
         },
         {
-            "name": "BHO AN LIEN DE NHaT PHO BO",
+            "name": "PHỞ ĂN LIỀN ĐỆ NHẤT PHỞ BÒ 65GR",
             "quantity": 5,
             "unit": null,
             "unit_price": 6000,
             "total_money": 30000,
-            "specs_ref": "65GR"
+            "specs_ref": null
         },
         {
-            "name": "MOAN LIEN DE NHAT PHO GA",
+            "name": "MÌ ĂN LIỀN ĐỆ NHẤT PHỞ GÀ 65GR",
             "quantity": 1,
             "unit": "GOI",
             "unit_price": 6000,
             "total_money": 6000,
-            "specs_ref": "65GR"
+            "specs_ref": null
         },
         {
-            "name": "PHO AN LIÊN VIFON GA",
+            "name": "PHỞ ĂN LIỀN VIFON GA 65GR",
             "quantity": 1,
             "unit": "GOI",
             "unit_price": 6000,
             "total_money": 6000,
-            "specs_ref": "05GR"
+            "specs_ref": null
         },
         {
-            "name": "PHO AN LIÊN VIFON BO",
+            "name": "PHỞ ĂN LIỀN VIFON BÒ 65GR",
             "quantity": 1,
             "unit": null,
             "unit_price": 6000,
             "total_money": 6000,
-            "specs_ref": "65GR"
+            "specs_ref": null
         },
         {
-            "name": "BÓNG MISU LoI NHUA",
+            "name": "TĂM BÔNG MISU LÕI NHỰA",
             "quantity": 2,
             "unit": null,
             "unit_price": 6000,
             "total_money": 12000,
-            "specs_ref": "100CAL"
+            "specs_ref": null
         },
         {
-            "name": "BÓNG PHAN TRULIVE",
+            "name": "BÔNG PHẤN TRULIVE",
             "quantity": 1,
             "unit": null,
             "unit_price": 30000,

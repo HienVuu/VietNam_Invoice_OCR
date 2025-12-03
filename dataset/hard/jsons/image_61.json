@@ -3,7 +3,7 @@
     "general_info": {
         "code": "08280",
         "date": "2019-09-19",
-        "seller_or_manufacturer": "Saigon Co.op CO.OP FODU HN THE K-PARK",
+        "seller_or_manufacturer": "Saigon Co.op CO.OP FOOD HN THE K-PARK",
         "buyer_or_project": null
     },
     "technical_specs": [],
@@ -58,7 +58,7 @@
     },
     "items": [
         {
-            "name": "Canh ga Kg-CP",
+            "name": "Cánh gà Kg-CP",
             "quantity": 0.41,
             "unit": "KG",
             "unit_price": 89000.0,

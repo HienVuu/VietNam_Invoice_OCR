@@ -31,8 +31,8 @@
     "items": [
         {
             "name": {
-                "value": "Gà nguyễn con HQ (147) NT",
-                "source_text": "Gà nguyễn con HQ (147) NT"
+                "value": "Gà nguyên con HQ (147) NT",
+                "source_text": "Gà nguyên con HQ (147) NT"
             },
             "quantity": {
                 "value": 1.0,
@@ -57,8 +57,8 @@
         },
         {
             "name": {
-                "value": "Đầu cả hối Amigo 500g T0",
-                "source_text": "Đầu cả hối Amigo 500g T0"
+                "value": "Đầu cả hồi Amigo 500g T0",
+                "source_text": "Đầu cả hồi Amigo 500g T0"
             },
             "quantity": null,
             "unit": {
@@ -80,8 +80,8 @@
         },
         {
             "name": {
-                "value": "Chả giỏ ? chả giò thịt Vissan 500g T2",
-                "source_text": "Chả giỏ ? chả giò thịt Vissan 500g T2"
+                "value": "Chả giỏ + chả giò thịt Vissan 500g T2",
+                "source_text": "Chả giỏ + chả giò thịt Vissan 500g T2"
             },
             "quantity": null,
             "unit": {

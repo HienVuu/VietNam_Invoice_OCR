@@ -14,8 +14,8 @@
             "source_text": "MINIMART ANAN"
         },
         "buyer_or_project": {
-            "value": "Mỹ nguyễn thị phương uyên",
-            "source_text": "Mỹ nguyễn thị phương uyên"
+            "value": "nguyễn thị phương uyên",
+            "source_text": "(0) nguyễn thị phương uyên"
         }
     },
     "technical_specs": [],
@@ -34,16 +34,16 @@
     "items": [
         {
             "name": {
-                "value": "Tâm bảo có tron26 bình qua cho, nhà măn vị phá 17 thời thánh thời thời thời thời thời thờng thời thị thuận thị thuận thị thuận th",
-                "source_text": "Tâm bảo có tron26 bình qua cho, nhà măn vị phá 17 thời thánh thời thời thời thời thời thờng thời thị thuận thị thuận thị thuận th"
+                "value": "bánh gạo one one mặn vị phô NT",
+                "source_text": "8936096670129 bánh gạo one one mặn vị phô NT"
             },
             "quantity": {
                 "value": 1,
                 "source_text": null
             },
             "unit": {
-                "value": null,
-                "source_text": null
+                "value": "gói",
+                "source_text": "gói"
             },
             "unit_price": {
                 "value": 20000,
@@ -60,16 +60,16 @@
         },
         {
             "name": {
-                "value": "29100106000 bìm huggi quần M74/NT",
-                "source_text": "29100106000 bìm huggi quần M74/NT"
+                "value": "bỉm huggi quần M74 NT",
+                "source_text": "29100106000 bỉm huggi quần M74/NT"
             },
             "quantity": {
                 "value": 1,
                 "source_text": "1"
             },
             "unit": {
-                "value": "goi",
-                "source_text": "goi"
+                "value": "gói",
+                "source_text": "gói"
             },
             "unit_price": {
                 "value": 315000,
@@ -86,16 +86,16 @@
         },
         {
             "name": {
-                "value": "291000870000 nước giật cho bà của kên tất",
-                "source_text": "291000870000 nước giật cho bà của kên tất"
+                "value": "nước giặt omo túi cửa trên NT",
+                "source_text": "291000870000 nước giặt omo túi cửa trên NT"
             },
             "quantity": {
                 "value": 1,
                 "source_text": "1"
             },
             "unit": {
-                "value": "TUI",
-                "source_text": "TUI"
+                "value": "TÚI",
+                "source_text": "TÚI"
             },
             "unit_price": {
                 "value": 105000,

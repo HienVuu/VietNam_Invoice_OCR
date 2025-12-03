@@ -4,7 +4,7 @@
         "code": "D8422",
         "date": "2019-09-20",
         "seller_or_manufacturer": "Saigon Co.0p",
-        "buyer_or_project": "Nguyen Hoang Anh"
+        "buyer_or_project": "Nguyễn Hoàng Anh"
     },
     "technical_specs": null,
     "technical_tables": null,
@@ -15,7 +15,7 @@
     },
     "items": [
         {
-            "name": "Rau muong",
+            "name": "Rau muống",
             "quantity": 0.418,
             "unit": "Kg",
             "unit_price": 19000.0,
@@ -23,7 +23,7 @@
             "specs_ref": "VATO57"
         },
         {
-            "name": "Thật vậy pha lóc",
+            "name": "Thịt xay pha lóc",
             "quantity": 0.184,
             "unit": null,
             "unit_price": 112000.0,
@@ -31,7 +31,7 @@
             "specs_ref": "VATO57"
         },
         {
-            "name": "Day hu trang",
+            "name": "Đậu hũ trắng",
             "quantity": 2.0,
             "unit": null,
             "unit_price": 5000.0,

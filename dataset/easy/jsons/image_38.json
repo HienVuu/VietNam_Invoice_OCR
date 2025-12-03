@@ -1,98 +1,108 @@
 {
-    "document_type": "unknown",
+    "document_type": "invoice",
     "general_info": {
         "code": null,
         "date": null,
-        "seller_or_manufacturer": null,
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
         "buyer_or_project": null
     },
     "technical_specs": [],
     "technical_tables": [],
-    "technical_drawing": {
-        "metadata": {
-            "title": null,
-            "drawing_no": null,
-            "revision": null,
-            "scale": null,
-            "projection": null,
-            "size": null,
-            "format_rev": null,
-            "ges_pn": null,
-            "material": null,
-            "finish": null,
-            "tolerances": {
-                "hole_diameter": null,
-                "edge": null,
-                "universal": null
-            },
-            "dimensions_unit": null,
-            "sheet": null,
-            "organization": null,
-            "confidentiality": null
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 23000,
+            "source_text": "23,000"
         },
-        "approvals": {
-            "drawn_by": {
-                "name": null,
-                "date": null
-            },
-            "engr": {
-                "name": null,
-                "date": null
-            },
-            "checked_by": {
-                "name": null,
-                "date": null
-            }
-        },
-        "notes": [],
-        "drawing_dimensions": {
-            "hole_features": [],
-            "radial_features": [],
-            "angular_features": [],
-            "linear_dimensions_sample": []
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
         }
     },
-    "financials": {
-        "total_payment": null,
-        "currency": null
-    },
-    "items": [],
+    "items": [
+        {
+            "name": {
+                "value": "Sữa đàn bò đường VNM 110ml NT",
+                "source_text": "Sữa đàn bò đường VNM 110ml NT"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": {
+                "value": "hop",
+                "source_text": "hop"
+            },
+            "unit_price": {
+                "value": 4500,
+                "source_text": "4,500"
+            },
+            "total_money": {
+                "value": 18000,
+                "source_text": "18,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Keo sugus nho, cam NT",
+                "source_text": "Keo sugus nho, cam NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 5000,
+                "source_text": "5,000"
+            },
+            "total_money": {
+                "value": 5000,
+                "source_text": "5,000"
+            },
+            "specs_ref": null
+        }
+    ],
     "raw_text_all": [
-        "E",
-        "E",
-        "E",
-        "E",
-        "lần",
-        "E",
-        "5",
-        "0",
-        "E",
-        "E",
-        "",
+        "MINIMART ANAN",
+        "Chợ Sủi Phú Thị Gia Lâm",
+        "el:",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Tên hàng",
+        "Đơn giá Thành tiền",
+        "SL ĐVT",
+        "291007150000 Sữa đàn bò đường VNM 110ml NT",
+        "Giá đăng ký:",
+        "5,000",
+        "4,500",
+        "Giá bán:",
+        "hop",
+        "18,000",
+        "4",
+        "291005020000 Keo sugus nho, cam NT",
+        "5,000",
+        "GOI",
+        "5,000",
         "1",
+        "Tổng số:",
         "5",
-        "5",
-        "E",
-        "E",
-        "",
-        "5",
-        "g",
-        "2",
-        "3",
-        "1",
-        "d",
-        "",
-        "",
-        "3",
-        "E",
-        "1",
-        "",
-        "2",
-        "5",
-        "1",
-        "5",
-        "3",
-        "5",
-        "E"
+        "Tổng cộng:",
+        "23,000",
+        "Tổng tiền:",
+        "23,000",
+        "Tiền khách trả:",
+        "VND",
+        "100,000",
+        "Tiền trả lại VND:",
+        "77,000",
+        "Thu ngân: BH2",
+        "Xin cám ơn và hẹn gặp lại quý khách I"
     ]
 }

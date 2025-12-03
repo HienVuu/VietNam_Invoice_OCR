@@ -33,8 +33,8 @@
                 "source_text": "1"
             },
             "unit": {
-                "value": "TUI",
-                "source_text": "TUI"
+                "value": "TÚI",
+                "source_text": "TÚI"
             },
             "unit_price": {
                 "value": 46000,
@@ -79,8 +79,8 @@
                 "source_text": "2"
             },
             "unit": {
-                "value": "hop",
-                "source_text": "hop"
+                "value": "HỘP",
+                "source_text": "HỘP"
             },
             "unit_price": {
                 "value": 7000,
@@ -102,8 +102,8 @@
                 "source_text": "2"
             },
             "unit": {
-                "value": "CAY",
-                "source_text": "CAY"
+                "value": "CÂY",
+                "source_text": "CÂY"
             },
             "unit_price": {
                 "value": 9000,
@@ -125,8 +125,8 @@
                 "source_text": "1"
             },
             "unit": {
-                "value": "tui",
-                "source_text": "tui"
+                "value": "túi",
+                "source_text": "túi"
             },
             "unit_price": {
                 "value": 56000,

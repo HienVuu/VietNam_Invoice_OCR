@@ -2,12 +2,12 @@
     "document_type": "invoice",
     "general_info": {
         "code": {
-            "value": "IDIO04A3523",
-            "source_text": "IDIO04A3523"
+            "value": "00443523",
+            "source_text": "00443523"
         },
         "date": {
             "value": "2020-08-03",
-            "source_text": "103/08/2020"
+            "source_text": "03/08/2020"
         },
         "seller_or_manufacturer": {
             "value": "Vincommerce",
@@ -31,8 +31,8 @@
     "items": [
         {
             "name": {
-                "value": "LÀM HÀ CÒN THẠCH KHÔ HÀ NỘI HỘP 125G",
-                "source_text": "LÀM HÀ CÒN THẠCH KHÔ HÀ NỘI HỘP 125G"
+                "value": "LÂM HÀ CỒN THẠCH KHÔ HÀ NỘI HỘP 125G",
+                "source_text": "LÂM HÀ CỒN THẠCH KHÔ HÀ NỘI HỘP 125G"
             },
             "quantity": {
                 "value": 1,

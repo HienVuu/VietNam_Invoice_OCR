@@ -1,7 +1,7 @@
 {
     "document_type": {
         "value": "receipt",
-        "source_text": "PHIẾU TÍNH TIEN"
+        "source_text": "PHIẾU TÍNH TIỀN"
     },
     "general_info": {
         "code": {
@@ -13,12 +13,12 @@
             "source_text": "Ngay: 21/05/2027"
         },
         "seller_or_manufacturer": {
-            "value": "Co. OPMart Hau GIANG",
-            "source_text": "Co. OPMart Hau GIANG"
+            "value": "Co. OPMart HẬU GIANG",
+            "source_text": "Co. OPMart HẬU GIANG"
         },
         "buyer_or_project": {
-            "value": "Au Thi KIM Dung",
-            "source_text": "Vang) Au Thi KIM Dung;"
+            "value": "ÂU THỊ KIM DUNG",
+            "source_text": "(Vang) ÂU THỊ KIM DUNG;"
         }
     },
     "technical_specs": [],
@@ -80,8 +80,8 @@
     "items": [
         {
             "name": {
-                "value": "NG LIX dam dac 3,8kg",
-                "source_text": "NG LIX dam dac 3,8kg"
+                "value": "NG LIX đậm đặc 3,8kg",
+                "source_text": "NG LIX đậm đặc 3,8kg"
             },
             "quantity": {
                 "value": null,
@@ -106,8 +106,8 @@
         },
         {
             "name": {
-                "value": "kor c10seứp bác",
-                "source_text": "kor c10seứp bác"
+                "value": "KDR CloseUp bạc hà 230g",
+                "source_text": "KDR CloseUp bạc hà 230g"
             },
             "quantity": {
                 "value": 6,
@@ -132,8 +132,8 @@
         },
         {
             "name": {
-                "value": "Trung vit 6t/hop.Y, food",
-                "source_text": "Trung vit 6t/hop.Y, food"
+                "value": "Trứng vịt 6t/hop.Y, food",
+                "source_text": "Trứng vịt 6t/hop.Y, food"
             },
             "quantity": {
                 "value": 1,
@@ -158,8 +158,8 @@
         },
         {
             "name": {
-                "value": "Trung ga 6t/hop-v.1600",
-                "source_text": "Trung ga 6t/hop-v.1600"
+                "value": "Trứng gà 6t/hop-v.1600",
+                "source_text": "Trứng gà 6t/hop-v.1600"
             },
             "quantity": {
                 "value": 1,

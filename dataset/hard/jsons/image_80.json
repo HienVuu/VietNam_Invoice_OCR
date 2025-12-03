@@ -1,84 +1,248 @@
 {
-    "document_type": null,
+    "document_type": {
+        "value": "invoice",
+        "source_text": null
+    },
     "general_info": {
-        "code": null,
-        "date": null,
-        "seller_or_manufacturer": null,
-        "buyer_or_project": null
+        "code": {
+            "value": "20003115",
+            "source_text": "Số phiếu: 20003115"
+        },
+        "date": {
+            "value": "2020-02-13",
+            "source_text": "Ngày: 13/2/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "NN",
+            "source_text": "NN"
+        },
+        "buyer_or_project": {
+            "value": null,
+            "source_text": null
+        }
     },
     "technical_specs": [],
     "technical_tables": [],
-    "technical_drawing": {
-        "metadata": {
-            "title": null,
-            "drawing_no": null,
-            "revision": null,
-            "scale": null,
-            "projection": null,
-            "size": null,
-            "format_rev": null,
-            "ges_pn": null,
-            "material": null,
-            "finish": null,
-            "tolerances": {
-                "hole_diameter": null,
-                "edge": null,
-                "universal": null
-            },
-            "dimensions_unit": null,
-            "sheet": null,
-            "organization": null,
-            "confidentiality": null
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 407010.0,
+            "source_text": "Tổng: 407,01,00"
         },
-        "approvals": {
-            "drawn_by": {
-                "name": null,
-                "date": null
-            },
-            "engr": {
-                "name": null,
-                "date": null
-            },
-            "checked_by": {
-                "name": null,
-                "date": null
-            }
-        },
-        "notes": [],
-        "drawing_dimensions": {
-            "hole_features": [],
-            "radial_features": [],
-            "angular_features": [],
-            "linear_dimensions_sample": []
+        "currency": {
+            "value": "VND",
+            "source_text": null
         }
     },
-    "financials": {
-        "total_payment": null,
-        "currency": null
-    },
-    "items": [],
+    "items": [
+        {
+            "name": {
+                "value": "Bánh đa nem",
+                "source_text": "Bánh đa nem"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "Gói",
+                "source_text": "Gói"
+            },
+            "unit_price": {
+                "value": 160000.0,
+                "source_text": "160,000"
+            },
+            "total_money": {
+                "value": 83003.0,
+                "source_text": "83,003"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Nem thái",
+                "source_text": "Nem thái"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "Gói",
+                "source_text": "Gói"
+            },
+            "unit_price": {
+                "value": 30400.0,
+                "source_text": "30,400"
+            },
+            "total_money": {
+                "value": 31000.0,
+                "source_text": "31,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Nấmm hương 100g",
+                "source_text": "Nấmm hương 100g"
+            },
+            "quantity": {
+                "value": 3,
+                "source_text": "3"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 63000.0,
+                "source_text": "63,000"
+            },
+            "total_money": {
+                "value": 180500.0,
+                "source_text": "180,500"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Bộ cốc",
+                "source_text": "Bộ cốc"
+            },
+            "quantity": {
+                "value": 3,
+                "source_text": "3"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 60000.0,
+                "source_text": "60,000"
+            },
+            "total_money": {
+                "value": 180000.0,
+                "source_text": "180,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Bánh Đa rế",
+                "source_text": "Bánh Đa rế"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "Gói",
+                "source_text": "Gói"
+            },
+            "unit_price": {
+                "value": null,
+                "source_text": "J0,00"
+            },
+            "total_money": {
+                "value": 19000.0,
+                "source_text": "19,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Mắm tôm",
+                "source_text": "Mắm tôm"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "Chai",
+                "source_text": "Chai"
+            },
+            "unit_price": {
+                "value": null,
+                "source_text": "13000"
+            },
+            "total_money": {
+                "value": 13000.0,
+                "source_text": "13,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        }
+    ],
     "raw_text_all": [
+        "As Nhiều Trị",
+        "Số phiếu: 2000:11",
+        "In lúc: 8 29",
+        "Ngày: 13/2/2020",
+        "\"hu ngân: N\"N",
+        "Ti: ên",
+        "Giải",
+        "ĐVT",
+        "SL",
+        "lđặt hàng",
+        "1,100",
+        "4,000",
+        "Chiéic",
         "1",
-        "E",
-        "5",
-        "5",
-        "5",
+        "Bánh đa nem",
+        "160,000",
+        "83,003",
+        "Gói",
+        "2",
+        "Ne thái",
+        "30,400",
+        "31,000",
+        "Gói",
         "1",
-        "5",
-        "E",
-        "5",
-        "1",
-        "03",
-        "",
-        "01",
-        "5",
-        "AT",
+        "Âm hương 100g",
+        "63,000",
+        "Cá",
+        "180,500",
         "3",
-        "E",
-        "le",
-        "2",
-        "E",
-        "2",
-        "9"
+        "tộ cốc",
+        "hăn",
+        "Cái",
+        "10,600",
+        "11,003",
+        "1",
+        "Eánh Đa rế",
+        "J0,00",
+        "19,000",
+        "Gói",
+        "1",
+        "tôm",
+        "J3100",
+        "13,003",
+        "Chai",
+        "1",
+        "Tổng SL",
+        "10",
+        "Tổng:",
+        "407,01,00",
+        "Quis",
+        "Xin cảm ơn"
     ]
 }

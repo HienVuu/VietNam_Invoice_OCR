@@ -15,7 +15,7 @@
     },
     "items": [
         {
-            "name": "Kiwi Vàng 4 trái/hop New Zea land",
+            "name": "Kiwi Vàng 4 trái/hộp New Zea land",
             "quantity": 1.0,
             "unit": "hộp",
             "unit_price": 113400.0,
@@ -23,7 +23,7 @@
             "specs_ref": "1153401000014"
         },
         {
-            "name": "Bắp cải trai tim",
+            "name": "Bắp cải trái tim",
             "quantity": 0.952,
             "unit": "KG",
             "unit_price": 43000.0,
@@ -47,7 +47,7 @@
             "specs_ref": "8935058962036"
         },
         {
-            "name": "Gã muối Thu Hằng gói 500g",
+            "name": "Gà muối Thu Hằng gói 500g",
             "quantity": 1.0,
             "unit": "gói",
             "unit_price": 151000.0,
