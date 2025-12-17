@@ -291,11 +291,18 @@ def extract_invoice_fields(raw_texts):
     for attempt in range(3):
         try:
             response = requests.post(url, headers=headers, json=data, timeout=60)
+            print(f"API Response Status: {response.status_code}")
             if response.status_code == 200:
                 result = response.json()
+                print(f"API Response: {result}")
                 if 'candidates' in result:
                     return json.loads(result['candidates'][0]['content']['parts'][0]['text'])
-        except Exception:
+                else:
+                    print("No 'candidates' in response")
+            else:
+                print(f"API Error: {response.text}")
+        except Exception as e:
+            print(f"Exception during API call: {e}")
             time.sleep(2)
 
     return {}
