@@ -170,6 +170,7 @@ def extract_invoice_fields(raw_texts):
        - Số: float hoặc int.
     4. Provenance: Cho mỗi trường trích xuất, bao gồm source_text từ OCR tokens.
     5. Nếu trường nào không có thông tin -> Trả về null.
+    6. Với bản vẽ kỹ thuật: Thông tin như Material, Finish, Projection Method, Size, Scale, v.v. THUỘC VỀ "technical_drawing.metadata", KHÔNG phải "technical_specs". Chỉ dùng "technical_specs" cho các thông số kỹ thuật lẻ không nằm trong metadata (ví dụ: trọng lượng, kích thước ống nếu có bảng riêng).
 
     CẤU TRÚC JSON YÊU CẦU:
     {{
@@ -285,16 +286,19 @@ def extract_invoice_fields(raw_texts):
     headers = {"Content-Type": "application/json"}
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"response_mime_type": "application/json"}
+        "generationConfig": {
+            "response_mime_type": "application/json",
+            "temperature": 0.0  # Set to 0 for deterministic output
+        }
     }
 
     for attempt in range(3):
         try:
             response = requests.post(url, headers=headers, json=data, timeout=60)
-            print(f"API Response Status: {response.status_code}")
+            # print(f"API Response Status: {response.status_code}")
             if response.status_code == 200:
                 result = response.json()
-                print(f"API Response: {result}")
+                # print(f"API Response: {result}")
                 if 'candidates' in result:
                     return json.loads(result['candidates'][0]['content']['parts'][0]['text'])
                 else:
