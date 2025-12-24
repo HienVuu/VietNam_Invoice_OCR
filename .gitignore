@@ -64,8 +64,6 @@ evaluation_results_hard/
 mc_ocr_dataset/annotations/
 mc_ocr_dataset/images/
 
-input/
-
 # Logs
 *.log
 logs/
