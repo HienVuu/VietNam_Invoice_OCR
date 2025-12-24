@@ -1,0 +1,36 @@
+{
+    "timestamp": "2025-12-12T10:45:23.614697",
+    "datasets": {
+        "easy": {
+            "dataset": "easy",
+            "timestamp": "2025-12-12T10:45:23.036286",
+            "total_invoices": 61,
+            "average_weighted_score": 0.8523497267759569,
+            "average_hard_score": 0.9453551912568307,
+            "average_soft_score": 0.639344262295082,
+            "average_line_item_f1": 0.9393442622950819,
+            "stp_rate": 90.1639344262295
+        },
+        "hard": {
+            "dataset": "hard",
+            "timestamp": "2025-12-12T10:45:23.614697",
+            "total_invoices": 38,
+            "average_weighted_score": 0.7571599453178404,
+            "average_hard_score": 0.9078947368421053,
+            "average_soft_score": 0.5789473684210527,
+            "average_line_item_f1": 0.6476418318523582,
+            "stp_rate": 81.57894736842105
+        }
+    },
+    "overall_summary": {
+        "total_invoices_easy": 61,
+        "total_invoices_hard": 38,
+        "total_invoices_overall": 99,
+        "average_weighted_score_easy": 0.8523497267759569,
+        "average_weighted_score_hard": 0.7571599453178404,
+        "stp_rate_easy": 90.1639344262295,
+        "stp_rate_hard": 81.57894736842105,
+        "overall_hard_accuracy": 0.9309764309764313,
+        "overall_soft_accuracy": 0.6161616161616161
+    }
+}

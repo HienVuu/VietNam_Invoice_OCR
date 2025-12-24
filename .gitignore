@@ -1,0 +1,11 @@
+dataset/
+
+PaddleOCR/
+
+ngrok.exe
+
+ngrok.zip
+
+__pycache__/
+
+*.pyc
