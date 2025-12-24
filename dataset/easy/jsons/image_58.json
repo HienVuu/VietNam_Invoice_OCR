@@ -1,0 +1,100 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00073278",
+            "source_text": "0H:00073278"
+        },
+        "date": {
+            "value": "2020-08-14",
+            "source_text": "14/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "Vincommerce, TP. Cẩm Phả, T. Quảng Ninh",
+            "source_text": "Vincommerce\nTP. Cảm Phá, T. Quảng Ninh"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 160000,
+            "source_text": "160.000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": null
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "CP xương đuôi 500g",
+                "source_text": "CP xương đuôi 500g"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": null,
+            "unit_price": {
+                "value": 40000,
+                "source_text": "40.000"
+            },
+            "total_money": {
+                "value": 160000,
+                "source_text": "160.000"
+            },
+            "specs_ref": {
+                "value": "8935058962128",
+                "source_text": "8935058962128"
+            }
+        }
+    ],
+    "raw_text_all": [
+        "VM% QNH Dự án KDC lấn biên cọc 6",
+        "DA khu DCLB cọc 8, P. Cảm Sơn",
+        "Vincommerce",
+        "TP. Cảm Phá, T. Quảng Ninh",
+        "024.71066866-44561",
+        "HÓA ƠN BÁN HÀNG",
+        "Ngày bán: 14/08/2020 18:01",
+        "0H:00073278",
+        "QUÂY:001",
+        "NVBH:09021213",
+        "Mặt hàng",
+        "ơn giá",
+        "T.Tiền",
+        "SL",
+        "CP xương đuôi 500g",
+        "8935058962128",
+        "40.000",
+        "160.000",
+        "4",
+        "TỔNG TIẾN PHẢI T. TOÁN",
+        "160.000",
+        "TỔNG TIỀN Ã GIẢM",
+        "0",
+        "TIỀN KHÁCH TRẢ",
+        "160.000",
+        "TIÊN MẶT",
+        "110.000",
+        "VinID",
+        "50.000",
+        "TIỀN TRẢ LẠI",
+        "0",
+        "(Giá đã bao gồm thuế GTGT)",
+        "ID thẻ khách hàng",
+        "XXXXXXXXXXXX3178",
+        "iểm tích(1.000VND-1 điểm)",
+        "5",
+        "Số tham chiếu",
+        "00445600100073278",
+        "chỉ xuất hóa đơn trong ngày",
+        "Tax invoice will be issued within same day",
+        "CÁM ƠN QUÝ KHÁCH VÀ HỌN GẶP LẠI",
+        "Hotline: 02471066866 Website: vinmart.com"
+    ]
+}

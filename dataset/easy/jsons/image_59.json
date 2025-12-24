@@ -1,0 +1,53 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": null,
+        "seller_or_manufacturer": "MINIMARTANAN",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 5000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Bánh mì tươi sữa và siêu mê NT",
+            "quantity": 1,
+            "unit": "cai",
+            "unit_price": 5000,
+            "total_money": 5000,
+            "specs_ref": "291009670000"
+        }
+    ],
+    "raw_text_all": [
+        "MINIMARTANAN",
+        "Chợ Sủi Phú Thị Gia Lâm",
+        "Tel:",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Tên hàng",
+        "ĐVT Đơn giá Thành tiên",
+        "291009670000 Bánh mì tươi sữa và siêu mê NT",
+        "Giá đăng ký:",
+        "6,000",
+        "5,000",
+        "5,000",
+        "cai",
+        "Giá bán:",
+        "1",
+        "Tổng số:",
+        "1",
+        "5,000",
+        "Tổng cộng",
+        "5,000",
+        "Tổng tiền:",
+        "VND",
+        "Tiến khách trả:",
+        "5,000",
+        "Thu ngân: BH3",
+        "Xin cám ơn và hẹn gặp lại quý khách I"
+    ]
+}

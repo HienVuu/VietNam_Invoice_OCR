@@ -1,0 +1,91 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-11",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": "QUÍ KHÁCH"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": 528900.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "5-Ngữ văn đia",
+            "quantity": 30,
+            "unit": null,
+            "unit_price": 21500.0,
+            "total_money": 645000.0,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "Đc: 212 Đường Trân Phú-Cẩm Phả",
+        "Nhân viên thu ngân:",
+        "ĐT 0333363328 - Fax 0333863328",
+        "Thời gian:10:43.32-11/08/2020",
+        "Tên hàng",
+        "CK Thành tiến",
+        "Giá",
+        "SL",
+        "645.000",
+        "5-Ngữ văn đia",
+        "30 21.500 18",
+        "645 0000",
+        "Tổng cộng",
+        "30",
+        "Chiết khấu bán hàng:",
+        "116.1000",
+        "528.900a",
+        "Tổng số thanh toán:",
+        "XIN CẢM ƠN QUÍ KHÁCHI"
+    ]
+}

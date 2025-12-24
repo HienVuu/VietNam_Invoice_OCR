@@ -1,0 +1,219 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AB2212008003162",
+            "source_text": "000AB2212008003162"
+        },
+        "date": {
+            "value": "13/08/2020",
+            "source_text": "13/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": {
+            "value": 116000,
+            "source_text": "116,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "áo mưa NT",
+                "source_text": "áo mưa NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "CAI",
+                "source_text": "CAI"
+            },
+            "unit_price": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "total_money": {
+                "value": 20000,
+                "source_text": "20,000"
+            },
+            "specs_ref": {
+                "value": "29102580000",
+                "source_text": "29102580000"
+            }
+        },
+        {
+            "name": {
+                "value": "mì kokomi mì 90 No",
+                "source_text": "mì kokomi mì 90 No"
+            },
+            "quantity": {
+                "value": 4,
+                "source_text": "4"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 3500,
+                "source_text": "3,500"
+            },
+            "total_money": {
+                "value": 14000,
+                "source_text": "14,000"
+            },
+            "specs_ref": {
+                "value": "291039890000",
+                "source_text": "291039890000"
+            }
+        },
+        {
+            "name": {
+                "value": "bánh mì bò kđ NT",
+                "source_text": "bánh mì bò kđ NT"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "goi",
+                "source_text": "goi"
+            },
+            "unit_price": {
+                "value": 8000,
+                "source_text": "8,000"
+            },
+            "total_money": {
+                "value": 16000,
+                "source_text": "16,000"
+            },
+            "specs_ref": {
+                "value": "291014250000",
+                "source_text": "291014250000"
+            }
+        },
+        {
+            "name": {
+                "value": "GVS watersilk 3 lớp NT",
+                "source_text": "GVS watersilk 3 lớp NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 66000,
+                "source_text": "66,000"
+            },
+            "total_money": {
+                "value": 66000,
+                "source_text": "66,000"
+            },
+            "specs_ref": {
+                "value": "291020570000",
+                "source_text": "291020570000"
+            }
+        }
+    ],
+    "raw_text_all": [
+        "MINIMART ANAN",
+        "Chợ Sủi Phú Thị Gia Lâm",
+        "Tei:",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Tên hàng",
+        "SL ĐVT",
+        "Đơn giá Thành tiền",
+        "29102580000 áo mưa NT",
+        "20,000",
+        "CAI",
+        "20,000",
+        "1",
+        "291039890000 mì kokomi mì 90 No",
+        "14,000",
+        "3,500",
+        "GOI",
+        "4",
+        "291014250000 bánh mì bò kđ NT",
+        "16,000",
+        "8,000",
+        "goi",
+        "2",
+        "291020570000 GVS watersilk 3 lớp NT",
+        "66,000",
+        "66,000",
+        "GOI",
+        "1",
+        "Tổng số:",
+        "8",
+        "116,000",
+        "Tổng cộng:",
+        "VND",
+        "116,000",
+        "Tiền khách trả:",
+        "Số GD: 000AB2212008003162 Ngày: 13/08/2020-01:46",
+        "Thu ngân: BH2",
+        "Xin cám ơn và hẹn gặp lại quý khách I"
+    ]
+}

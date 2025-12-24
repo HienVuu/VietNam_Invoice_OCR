@@ -1,0 +1,53 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 10000.0,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "áo mưa giấy",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 10000.0,
+            "total_money": 10000.0,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "Đc: 212 Đường Trần Phú-Cẩm Phả",
+        "Nhân viên thu ngân:",
+        "ĐT 0333863328 - Fax 0333863328",
+        "Thời gian:09:39:25 - 14/08/2020",
+        "Tên hàng",
+        "Thành tiền",
+        "Giá",
+        "SL",
+        "Ck",
+        "áo mưa giấy",
+        "10.000",
+        "10.000",
+        "1",
+        "0",
+        "Tổng cộng:",
+        "10.000",
+        "1",
+        "Chiết khấu bán hàng:",
+        "Od",
+        "Tổng số thanh toán:",
+        "10.000",
+        "XIN CẢM ƠN QUÍ KHÁCHI",
+        "000",
+        "Samsung Triple Camera"
+    ]
+}
