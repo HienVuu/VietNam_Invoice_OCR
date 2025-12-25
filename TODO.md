@@ -1,0 +1,4 @@
+- [ ] Add gr.Image component to the Gradio interface for displaying input images
+- [ ] Modify the process_images function to handle image display
+- [ ] Update the interface layout to include the input image display box
+- [ ] Test the changes to ensure the interface works correctly

@@ -6,6 +6,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import tempfile
 import shutil
+import base64
+from io import BytesIO
 
 from vietocr.vietocr.tool.predictor import Predictor
 from vietocr.vietocr.tool.config import Cfg
@@ -26,7 +28,7 @@ def load_models():
         config['device'] = 'cpu'
         recognitor = Predictor(config)
 
-def predict_single_image(img_path, output_dir):
+def predict_single_image(img_path):
     load_models()
 
     img = cv2.imread(img_path)
@@ -59,11 +61,7 @@ def predict_single_image(img_path, output_dir):
     font_path = FONT if os.path.exists(FONT) else None
     annotated = draw_ocr(new_image, shifted_boxes, texts, font_path=font_path)
 
-    annotated_img = Image.fromarray(annotated)
-    output_file = os.path.join(output_dir, os.path.basename(img_path))
-    annotated_img.save(output_file, dpi=(100, 100))
-
-    return boxes, texts, output_file
+    return boxes, texts, Image.fromarray(annotated)
 
 def extract_invoice_fields(raw_texts):
     import requests
@@ -200,6 +198,7 @@ def extract_invoice_fields(raw_texts):
         "items": [
             {{
                 "name": "Tên hàng hóa",
+                "source_text": "Văn bản nguồn từ OCR cho tên hàng hóa",
                 "quantity": 0,
                 "unit": "ĐVT",
                 "unit_price": 0,
@@ -234,13 +233,24 @@ def extract_invoice_fields(raw_texts):
 
     return {"error": "Failed to extract data"}
 
+def display_input_image(images):
+    if images:
+        # Get the first image path
+        if isinstance(images[0], tuple):
+            img_path = images[0][0]  # filepath from tuple
+        else:
+            img_path = images[0]  # direct path
+        return Image.open(img_path)
+    return None
+
 def process_images(images):
     if not images:
-        return None, "Vui lòng upload ít nhất một ảnh."
+        return None, None, "Vui lòng upload ít nhất một ảnh."
 
     with tempfile.TemporaryDirectory() as temp_dir:
         all_texts = []
         annotated_images = []
+        input_images = []
 
         for img_file in images:
             # Gradio returns tuple (filepath, filename) for file inputs
@@ -249,9 +259,13 @@ def process_images(images):
             else:
                 img_path = img_file  # fallback
 
+            # Load input image
+            input_img = Image.open(img_path)
+            input_images.append(input_img)
+
             # Process
-            boxes, texts, annotated_path = predict_single_image(img_path, temp_dir)
-            annotated_images.append(annotated_path)
+            boxes, texts, annotated_img = predict_single_image(img_path)
+            annotated_images.append(annotated_img)
 
             # Sort texts by position
             sorted_indices = sorted(range(len(boxes)), key=lambda i: boxes[i][0][1])
@@ -268,11 +282,50 @@ def process_images(images):
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(final_data, f, ensure_ascii=False, indent=4)
 
-        # Return annotated image and JSON
-        if annotated_images:
-            return annotated_images[0], json.dumps(final_data, ensure_ascii=False, indent=4)
+        # Generate HTML table for items if present
+        table_html = ""
+        if final_data.get("items") and isinstance(final_data["items"], list) and len(final_data["items"]) > 0:
+            table_html = """
+            <h3>Pricing Table</h3>
+            <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif;">
+                <thead>
+                    <tr style="background-color:#f2f2f2;">
+                        <th style="border:1px solid #ddd; padding:8px; text-align:left;">STT</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:left;">Tên hàng hóa</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:right;">Số lượng</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:left;">Đơn vị</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:right;">Đơn giá</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:right;">Thành tiền</th>
+                        <th style="border:1px solid #ddd; padding:8px; text-align:left;">Ghi chú kỹ thuật</th>
+                    </tr>
+                </thead>
+                <tbody>
+            """
+            for i, item in enumerate(final_data["items"], 1):
+                table_html += f"""
+                    <tr>
+                        <td style="border:1px solid #ddd; padding:8px;">{i}</td>
+                        <td style="border:1px solid #ddd; padding:8px;">{item.get('source_text', item.get('name', ''))}</td>
+                        <td style="border:1px solid #ddd; padding:8px; text-align:right;">{item.get('quantity', '')}</td>
+                        <td style="border:1px solid #ddd; padding:8px;">{item.get('unit', '')}</td>
+                        <td style="border:1px solid #ddd; padding:8px; text-align:right;">{item.get('unit_price', ''):,}</td>
+                        <td style="border:1px solid #ddd; padding:8px; text-align:right;">{item.get('total_money', ''):,}</td>
+                        <td style="border:1px solid #ddd; padding:8px;">{item.get('specs_ref', '')}</td>
+                    </tr>
+                """
+            table_html += "</tbody></table>"
+
+        # Return annotated image, table HTML, and JSON
+        if annotated_images and input_images:
+            # Convert PIL Image to base64 for annotated
+            img = annotated_images[0]
+            buffered = BytesIO()
+            img.save(buffered, format="PNG")
+            img_str = base64.b64encode(buffered.getvalue()).decode()
+            img_html = f'<img src="data:image/png;base64,{img_str}" style="max-width:100%; height:auto;">'
+            return img_html, table_html, json.dumps(final_data, ensure_ascii=False, indent=4)
         else:
-            return None, json.dumps(final_data, ensure_ascii=False, indent=4)
+            return None, table_html, json.dumps(final_data, ensure_ascii=False, indent=4)
 
 # Gradio Interface
 with gr.Blocks(title="Vietnamese OCR with Structured Extraction") as demo:
@@ -284,10 +337,19 @@ with gr.Blocks(title="Vietnamese OCR with Structured Extraction") as demo:
         process_btn = gr.Button("Process Images")
 
     with gr.Row():
-        annotated_output = gr.Image(label="Annotated Image")
+        input_image_output = gr.Image(label="Input Image")
+
+    with gr.Row():
+        annotated_output = gr.HTML(label="Annotated Image")
+
+    with gr.Row():
+        table_output = gr.HTML(label="Pricing Table")
+
+    with gr.Row():
         json_output = gr.JSON(label="Extracted Data")
 
-    process_btn.click(process_images, inputs=image_input, outputs=[annotated_output, json_output])
+    image_input.change(display_input_image, inputs=image_input, outputs=input_image_output)
+    process_btn.click(process_images, inputs=image_input, outputs=[annotated_output, table_output, json_output])
 
 if __name__ == "__main__":
     demo.launch()

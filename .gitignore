@@ -9,3 +9,27 @@ ngrok.zip
 __pycache__/
 
 *.pyc
+
+mc_ocr_dataset/
+
+input/
+
+output/
+
+temp_output/
+
+evaluation_results/
+
+evaluation_results_hard/
+
+mc_ocr_dataset/
+
+input/
+
+output/
+
+temp_output/
+
+evaluation_results/
+
+evaluation_results_hard/
