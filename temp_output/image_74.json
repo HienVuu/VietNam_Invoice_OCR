@@ -1,0 +1,54 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": "00198 - 22108506",
+        "date": "2020-10-02",
+        "seller_or_manufacturer": "MILANO COFFEE",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 19000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Cà phê sửa hạt dẻ (M)",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 19000,
+            "total_money": 19000,
+            "specs_ref": "(MV)"
+        }
+    ],
+    "raw_text_all": [
+        "MILANO COFFEE",
+        "HÓA ĐƠN THANH TOÁN",
+        "5 hóa dơn: 00198 - 22108506 Thu ngân: CA 2",
+        "Bàn:Số-02",
+        "02.10.2020 15.30",
+        "T.Tiền",
+        "Đ.GIÁ",
+        "SL",
+        "Tên món",
+        "t",
+        "19000",
+        "19.000",
+        "Cà phê sửa hạt dẻ (M)",
+        "(MV)",
+        "19 000",
+        "Tổng:",
+        "19 000",
+        "Tiên Thanh Toán:",
+        "CASH(VND) - 19 000",
+        "19 000",
+        "4 Khách trà:",
+        "0",
+        "4 Trả khách:",
+        "Wifi: Milano Coffee Premium",
+        "Milano Coffee xin cảm on và hẹn gặp lai",
+        "Quy khách"
+    ]
+}

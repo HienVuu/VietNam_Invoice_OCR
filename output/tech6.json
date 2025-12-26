@@ -1,0 +1,262 @@
+{
+    "document_type": "technical_drawing",
+    "general_info": null,
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": {
+        "metadata": {
+            "title": {
+                "value": "Bar, Timming belt placer 4, Testing conveyor",
+                "source_text": "Bar, Timming belt placer 4, Testing conveyor"
+            },
+            "drawing_no": {
+                "value": "94801-160-032",
+                "source_text": "94801-160-032"
+            },
+            "revision": {
+                "value": "01.00",
+                "source_text": "01.00"
+            },
+            "scale": {
+                "value": "2:1",
+                "source_text": "SCALE 2:1"
+            },
+            "projection": {
+                "value": "THIRD ANGLE PROJECTION",
+                "source_text": "THIRD ANGLE PROJECTION"
+            },
+            "size": null,
+            "format_rev": {
+                "value": "A",
+                "source_text": "FORMAT REVA"
+            },
+            "ges_pn": null,
+            "material": {
+                "value": "Alum 6061-T6",
+                "source_text": "Alum 6061-T6"
+            },
+            "finish": {
+                "value": "Anodize (Black) 5~10(um)",
+                "source_text": "Anodize (Black) 5?10(um)"
+            },
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": {
+                "value": "mm",
+                "source_text": "DIMENSIONS ARE IN MILLIMETERS."
+            },
+            "sheet": {
+                "value": "sheet",
+                "source_text": "sheet"
+            },
+            "organization": {
+                "value": "Averna",
+                "source_text": "Averna INATIONAL VN: Lot 1.3-1, D1 Streat, District 9 Saigon High Tech Park - HCMC (84) 28 3796 2388"
+            },
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": {
+                    "value": "Phat Nguyen",
+                    "source_text": "Phat Nguyen"
+                },
+                "date": {
+                    "value": "2025-09-04",
+                    "source_text": "9/4/2025"
+                }
+            },
+            "engr": {
+                "name": {
+                    "value": "Kha Dang",
+                    "source_text": "Kha Dang"
+                },
+                "date": {
+                    "value": "2025-09-04",
+                    "source_text": "9/4/2025"
+                }
+            },
+            "checked_by": {
+                "name": {
+                    "value": "Dong Ngo",
+                    "source_text": "Dong Ngo"
+                },
+                "date": {
+                    "value": "2025-09-04",
+                    "source_text": "9/4/2025"
+                }
+            }
+        },
+        "notes": [
+            {
+                "value": "UNLESS OTHERWISE SPECIFIED",
+                "source_text": "UNLESS OTHERWISE SPECIFIED"
+            },
+            {
+                "value": "THIS DRAWING REFERENCES SUPPLIED 3D MODEL UNDIMENSIONED FEATURES ON PART TO MATCH SO MODEL TO TOLERANCE BLOCK",
+                "source_text": "THIS DRAWING REFERENCES SUPPLIED 3D MODEL UNDIMENSIONED FEATURES ON PART TO MATCH SO MODEL TO TOLERANCE BLOCK"
+            },
+            {
+                "value": "DIMENSIONS ARE IN MILLIMETERS. DIMENSIONS APPLY AFTER FINISH. ALL THREADED HOLES MUST NOT BE AFFECTED BY PAINTING SURFACE",
+                "source_text": "DIMENSIONS ARE IN MILLIMETERS. DIMENSIONS APPLY AFTER FINISH. ALL THREAED HOLES MUST NOT BE AFFECTED BY PAINTING SURFACE"
+            },
+            {
+                "value": "ALL DIMENSIONS AFTER FINISH.",
+                "source_text": "ALL DIMENSIONS AFTER FINISH."
+            },
+            {
+                "value": "USE MINIMUM BEND RADIUS AND RELIEFS",
+                "source_text": "USE MINIMUM BEND RADIUS AND RELIEFS"
+            },
+            {
+                "value": "BREAK AND DEBURR ALL SHARP CORNERS AND EDGES",
+                "source_text": "BREAK AND DEBURRAIL SHARP CORNERS AND EDGES"
+            },
+            {
+                "value": "INSTALL HELICAL COIL INSERTS, PRESS FIT STANDOFFS, STUDS, AND NUTS IN ACCORDANCE WITH",
+                "source_text": "INSTAIL HELICAL COIL INSERTS, PRESS FIT STANDOFFS, STUDS, AND NUTS IN ACCORDANCE WITH"
+            },
+            {
+                "value": "ALL SURFACES SHOULD BE CLEAN AND FREE OF GREASE, GRIME, DIRT, SCRATCHES, OR BLEMISHES",
+                "source_text": "ALL SURFACES SHOULD BE CLEAN AND FREE OF GREASE, GRIME, DIRT, SCRATCHES, OR BLEMISHES"
+            },
+            {
+                "value": "IN CASE OF CONFLICT TOLERANCE ANNOTATION FOR SAME DIMENSION, APPLY TIGHTER TOLERANCE",
+                "source_text": "IN CASE OF CONFLICT TOLERANCE ANOTATION FOR SAME DIMENSION, APPLY TIGHTER TOLERANCE"
+            },
+            {
+                "value": "ENGRAVE WITH PART NUMBER, REVISION AND VENDOR CODE IN LEGIBLE SIZE AND FONT APPROXIMATELY WHERE SHOWN, (METHOD OPTIONAL)",
+                "source_text": "ENGRAVE WITH PART NUMBER, REVISION AND VENDOR CODE IN LEGIBLE SIZE AND FONT APPROXIMATELY WHERE SHOWN, (METHOD OPTIONAL)"
+            },
+            {
+                "value": "ENGRAVE ARROW & TEXT APPROXIMATELY WHERE SHOWN. (METHOD OPTIONAL)",
+                "source_text": "ENGRAVE ARROW & TEXT APPROXIMATELY WHERE SHOWN. (METHOD OPTIONAL)"
+            },
+            {
+                "value": "DO NOT SCALE DRAWING",
+                "source_text": "DO NOT SCALE DRAYING"
+            }
+        ],
+        "drawing_dimensions": {
+            "hole_features": null,
+            "radial_features": null,
+            "angular_features": null,
+            "linear_dimensions_sample": [
+                {
+                    "value": 18.0,
+                    "source_text": "18"
+                },
+                {
+                    "value": 8.2,
+                    "source_text": "8.2"
+                },
+                {
+                    "value": 3.5,
+                    "source_text": "3.5"
+                },
+                {
+                    "value": 10.9,
+                    "source_text": "10.9"
+                },
+                {
+                    "value": 8.4,
+                    "source_text": "8.4"
+                },
+                {
+                    "value": -12.9,
+                    "source_text": "-12.9."
+                },
+                {
+                    "value": 14.9,
+                    "source_text": "14.9"
+                },
+                {
+                    "value": 20.9,
+                    "source_text": "20.9"
+                },
+                {
+                    "value": 7.2,
+                    "source_text": "7.2"
+                }
+            ]
+        }
+    },
+    "financials": null,
+    "items": null,
+    "raw_text_all": [
+        "3.5 X 29.7?",
+        "1.7X45?",
+        "3.5X45",
+        "18",
+        "8.2",
+        "3.5",
+        "10.9",
+        "8.4",
+        "-12.9.",
+        "14.9",
+        "20.9",
+        "7.2",
+        "DETAILB",
+        "SCALE 4:1",
+        "NOTES: UNLESS OTHERWISE SPECIFIED",
+        "THIS DRAWING REFERENCES SUPPLIED 3D MODEL UNDIMENSIONED FEATURES ON PART TO",
+        "MATCH SO MODEL TO TOLERANCE BLOCK",
+        "DIMENSIONS ARE IN MILLIMETERS. DIMENSIONS APPLY AFTER FINISH. ALL THREAED HOLES MUST",
+        "2",
+        "ALL DIMENSIONS",
+        "AFTER FINISH.",
+        "NOT BE AFFECTED BYPAINTING SURFACE",
+        "A Averna",
+        "INATIONAL",
+        "VN: Lot 1.3-1, D1 Streat, District 9",
+        "USE MINIMUM BEND RADIUS AND RELIEFS",
+        "038000000199",
+        "3.",
+        "Saigon High Tech Park - HCMC",
+        "surface finish",
+        "BREAK AND DEBURRAIL SHARP CORNERS AND EDGES",
+        "Y",
+        "(84) 28 3796 2388",
+        "INSTAIL HELICAL COIL INSERTS, PRESS FIT STANDOFFS, STUDS, AND NUTS IN ACCORDANCE WITH",
+        "DATE",
+        "APPROVALS",
+        "03600000000000055",
+        "BROWNED",
+        "ALL SURFACES SHOULD BE CLEAN AND FREE OF GREASE, GRIME, DIRT, SCRATCHES, OR",
+        "Phat Nguyen",
+        "09",
+        "9/4/2025",
+        "BLEMISHES",
+        "ENGR",
+        "Bar, Timming belt placer 4, Testing conveyor",
+        "IN CASE OF CONFLICT TOLERANCE ANOTATION FOR SAME DIMENSION, APPLY TIGHTER",
+        "Kha Dang",
+        "9/4/2025",
+        "THIRD ANGLE PROJECTION",
+        "WEATERWAY",
+        "TOLERANCE",
+        "CHECKED",
+        "9/4/2025",
+        "Alum 6061-T6",
+        "Dong Ngo",
+        "ENGRAVE WITH PART NUMBER, REVISION AND VENDOR CODE IN LEGIBLE SIZE AND FONT",
+        "6",
+        "94801-160-032",
+        "Axama PAN",
+        "APPROXIMATELY WHERE SHOWN, (METHOD OPTIONAL)",
+        "c",
+        "01.00",
+        "FINEY",
+        "Anodize (Black) 5?10(um)",
+        "ENGRAVE ARROW 8 TEXT APPROXIMATELY WHERE SHOWN. (METHOD OPTIONAL)",
+        "DO NOT SCALE DRAYING",
+        "FORMAT REVA",
+        "2.0F",
+        "sheet",
+        "2:1",
+        "SCALE"
+    ]
+}

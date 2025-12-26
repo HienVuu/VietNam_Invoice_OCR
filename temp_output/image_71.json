@@ -1,0 +1,53 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": "802512",
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ THUỐC BỆNH VIỆN ĐA KHOA THÀNH PHỐ VINH",
+        "buyer_or_project": "hà Kt"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 46000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Dưỡng tâm an thần",
+            "quantity": 40,
+            "unit": null,
+            "unit_price": 1150,
+            "total_money": 46000,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "NHÀ THUỐC BỆNH VIỆN ĐA KHOA",
+        "THÀNH PHỐ VINH",
+        "Số 178 Trần Phú, Hồng Sơn, TP. Vinh, Nghệ An",
+        "09.777.38.868",
+        "HÓA ĐƠN BÁN LÊ",
+        "Ngày mua: 14:14:24 14/08/2020 Mã phiếu 802512",
+        "Nhân viên bán hàng: ngô Thị Trang",
+        "Người mua: hà Kt",
+        "Thời gian in:14:14:32-14/08/2020",
+        "Tên hàng",
+        "TT",
+        "Thành tiền",
+        "SL",
+        "ĐG",
+        "Dưỡng tâm an thần",
+        "46.000",
+        "40",
+        "1",
+        "1.150",
+        "- Tổng khoản: 1",
+        "- Tiên hàng: 46.000",
+        "Đề nghị quy khách bảo quản thuốc theo",
+        "đúng hưởng dẫn",
+        "Cảm ơn quy khích đa mua hàng",
+        "Hàng đã mua miền tra tới"
+    ]
+}

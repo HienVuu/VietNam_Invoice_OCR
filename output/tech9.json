@@ -1,0 +1,168 @@
+{
+    "document_type": "technical_drawing",
+    "general_info": {
+        "code": "2800-60-2013",
+        "date": null,
+        "seller_or_manufacturer": null,
+        "buyer_or_project": null
+    },
+    "technical_specs": [
+        {
+            "property": "Weight",
+            "value": "5,62 kg",
+            "source_text": "5,62 kg"
+        },
+        {
+            "property": "Surface Roughness",
+            "value": "RA 3.2",
+            "source_text": "ETAT DE SURFACE RA 3.2"
+        }
+    ],
+    "technical_tables": [
+        {
+            "table_name": "Revision Table",
+            "headers": [
+                "Date",
+                "Description",
+                "Rév"
+            ],
+            "rows": [
+                [
+                    "17/06/2010",
+                    "PLAN REFAIT SUR INVENTOR",
+                    "03"
+                ]
+            ]
+        }
+    ],
+    "technical_drawing": {
+        "metadata": {
+            "title": "PLAQUE SUPPORT",
+            "drawing_no": "2800-60-2013",
+            "revision": "03",
+            "scale": "1:2",
+            "projection": null,
+            "size": "A3",
+            "format_rev": null,
+            "ges_pn": null,
+            "material": "C45 (XC 48)",
+            "finish": "Phosphating",
+            "tolerances": {
+                "hole_diameter": "6x S8 H7",
+                "edge": "CH. 0,2XO,2",
+                "universal": null
+            },
+            "dimensions_unit": "mm",
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": "MECHOUD",
+                "date": "2010-03-25"
+            },
+            "engr": null,
+            "checked_by": null
+        },
+        "notes": [
+            "PLAN REFAIT SUR INVENTOR",
+            "possitle coating and treatment",
+            "ETAT DE SURFACE RA 3.2",
+            "CASSER LES ANGLES VIFS PAR CH. 0,2XO,2",
+            "BURR OUT SHARP EDGES WITH CH. 0,2X0,2",
+            "SURFACE ROUGHNESS"
+        ],
+        "drawing_dimensions": {
+            "hole_features": [
+                "12xM10x1.5",
+                "6x S8 H7"
+            ],
+            "radial_features": [
+                "R6"
+            ],
+            "angular_features": [],
+            "linear_dimensions_sample": [
+                156.0,
+                140.0,
+                126.0,
+                8.0,
+                8.0,
+                12.0,
+                10.5,
+                9.0
+            ]
+        }
+    },
+    "financials": null,
+    "items": null,
+    "raw_text_all": [
+        "V",
+        "156",
+        "140",
+        "126",
+        "12xM10x1.5",
+        "Prof RAINURE - 4",
+        "Deep GROOVE",
+        "8",
+        "8",
+        "6x S8 H7",
+        "Ố",
+        "O",
+        "3",
+        "Ỏ",
+        "3",
+        "Ố",
+        "0",
+        "3",
+        "0",
+        "0",
+        "O",
+        "12",
+        "1",
+        "0",
+        "1",
+        "Ở",
+        "0",
+        "Ố",
+        "9",
+        "01",
+        "Y",
+        "h",
+        "O",
+        "3",
+        "8",
+        "10,5",
+        "9",
+        "Ổ",
+        "B",
+        "R6",
+        "Date",
+        "Description",
+        "Rév",
+        "PLAN REFAIT SUR INVENTOR",
+        "17/06/2010",
+        "03",
+        "03119119117E86-050 Casses",
+        "Anticologist",
+        "COMMERCEPTIONALISTS",
+        "possitle coating and treatment",
+        "C45 (XC 48)",
+        "PLAQUE SUPPORT",
+        "Phosphating",
+        "out/Drawn by",
+        "Aucun/None",
+        "5,62 kg",
+        "USTRSIM",
+        "25/03/2010",
+        "MECHOUD",
+        "5 2800-60-2013",
+        "ETAT DE SURFACE RA 3.2",
+        "CASSER LES ANGLES VIFS PAR CH. 0,2XO,2",
+        "03",
+        "A3",
+        "1:2",
+        "BURR OUT SHARP EDGES WITH CH. 0,2X0,2",
+        "SURFACE ROUGHNESS"
+    ]
+}

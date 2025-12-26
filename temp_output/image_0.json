@@ -1,0 +1,63 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00073344",
+        "date": "14/08/2020",
+        "seller_or_manufacturer": "Vincommerce",
+        "buyer_or_project": "Dự án KDC lấn biến cọc 8, P. Cảm Sơn"
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 43800,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Kem hương sầu riêng Vinami Ik hộp 450m1",
+            "quantity": 1,
+            "unit": "hộp",
+            "unit_price": 43800,
+            "total_money": 43800,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "VM+ QNH Dự án KDC lấn biến cọc 8",
+        "4",
+        "DA khu DCLB cọc 8, P. Cảm Sơn",
+        "Vincommerce",
+        "TP. Cầm Phá, T. Quảng Ninh",
+        "024.71066866-44661",
+        "HÓA ƠN BÁN HẰNG",
+        "Ngày bán:14/08/2020 21:37",
+        "00073344",
+        "Quấy:001",
+        "NVBH:09021213",
+        "Mặt hàng",
+        "dn giá",
+        "T.Tiến",
+        "SL",
+        "Kem hương sầu riêng Vinami Ik hộp 450m1",
+        "8934673295208",
+        "43.800",
+        "43.800",
+        "1",
+        "TỔNG TIẾN PHẢI T. TOÁN",
+        "43.800",
+        "TỔNG TIỀN Ã GIẢM",
+        "0",
+        "TIỀN KHÁCH TRẢ",
+        "43.800",
+        "TIỀN MẶT",
+        "50.000",
+        "6.200",
+        "TIỀN TRẢ LẠI",
+        "(Giá đã bao gồm thuế GTGT)",
+        "Chỉ xuất hóa đơn trong ngày",
+        "Tax invoice will be issued within same day",
+        "CÁM ƠN QUÝ KHÁCH VÀ HỢN GẶP LẠI",
+        "1984 Hotline: 02471066866 Website: Vinmart.compit"
+    ]
+}

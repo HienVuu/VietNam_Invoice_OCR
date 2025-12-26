@@ -1,0 +1,75 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": "00229633",
+        "date": "2020-08-10",
+        "seller_or_manufacturer": "Vincommerce - VM+ TTTM Chợ Sủi, Số 42 Phố Súi, xã Phú Thị, huyện Gia Lâm, Hà Nội",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 60000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Thức uồng Kun socola lúa mạch 110m1",
+            "quantity": 8,
+            "unit": null,
+            "unit_price": 5000,
+            "total_money": 40000,
+            "specs_ref": "8936025772139"
+        },
+        {
+            "name": "Sửa chua uống Lifkun hương cấm 110m1",
+            "quantity": 4,
+            "unit": null,
+            "unit_price": 5000,
+            "total_money": 20000,
+            "specs_ref": "8936025772122"
+        }
+    ],
+    "raw_text_all": [
+        "VM+ TTTM Chợ Sủi",
+        "Số 42 Phố Súi, xã Phú Thị",
+        "Vincommerce",
+        "huyện Gia Lâm, Hà Nội",
+        "024.71066866-27971",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Ngày bán: 10/08/2020 15:19",
+        "HĐ:00229633",
+        "Quầy:001",
+        "NVBH:08007033",
+        "Mặt hàng",
+        "Đơn giá",
+        "T.Tiến",
+        "sl",
+        "Thức uồng Kun socola lúa mạch 110m1",
+        "8936025772139",
+        "40.000",
+        "5.000",
+        "8",
+        "Sửa chua uống Lifkun hương cấm 110m1",
+        "8936025772122",
+        "5.000",
+        "20.000",
+        "4",
+        "TỔNG TIÊN PHẢI T. TOÁN",
+        "60.000",
+        "TỔNG TIÊN ĐÃ GIÁM",
+        "0",
+        "TIỀN KHÁCH TRẢ",
+        "60.000",
+        "TIÊN MẶT",
+        "60.000",
+        "TIẾN TRẢ LAI",
+        "0",
+        "(GIÁ ĐÃ BAO GỒM THUẾ GTGT)",
+        "Chỉ xuất hóa dơn trong ngày",
+        "Tax Invoice will be issued wi thin same day",
+        "CÁM ƠN QUY KHÁCH VÀ HỌN GẶP LẠI",
+        "Hotlines 02471066068 Webs Tiến Vinmart.com"
+    ]
+}

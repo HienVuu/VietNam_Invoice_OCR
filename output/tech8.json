@@ -1,0 +1,142 @@
+{
+    "document_type": "technical_drawing",
+    "general_info": {
+        "code": null,
+        "date": null,
+        "seller_or_manufacturer": null,
+        "buyer_or_project": null
+    },
+    "technical_specs": [
+        {
+            "property": "Weight",
+            "value": "3,07 kg",
+            "source_text": "Masse/Weight\n3,07 kg"
+        },
+        {
+            "property": "Surface Roughness",
+            "value": "Ra 3.2",
+            "source_text": "ETAT DE SURFACE Ra 3.2"
+        }
+    ],
+    "technical_tables": [
+        {
+            "table_name": "Revision History",
+            "headers": [
+                "Date",
+                "Rév.",
+                "Description"
+            ],
+            "rows": [
+                [
+                    "23/06/2010",
+                    "04",
+                    "PLAN REFAIT SUR INVENTOR - AJOUT CH.2X2"
+                ]
+            ]
+        }
+    ],
+    "technical_drawing": {
+        "metadata": {
+            "title": "SUPPORT VERIN SYM",
+            "drawing_no": "52800.50-4000",
+            "revision": "04",
+            "scale": "1:1",
+            "projection": null,
+            "size": "A1",
+            "format_rev": "A",
+            "ges_pn": null,
+            "material": "C45 (XC 48)",
+            "finish": "Phosphat, manganese / Manganese Phosphating",
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": "Usinage ISO 2768-mK/ Chaudronnerie NF E 86-050 Classe B"
+            },
+            "dimensions_unit": "mm",
+            "sheet": "1/1",
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": "BEM EXTERIEUR",
+                "date": "2010-06-22"
+            },
+            "engr": null,
+            "checked_by": null
+        },
+        "notes": [
+            "PIECE SYMETRIQUE AU PLAN N? 5-2800-55-4010",
+            "SYMMETRICAL PART TO THE PART",
+            "CASSER LES ANGLES VIFS PAR CH. 0,2X0,2",
+            "BURR OUT SHARP EDGES WITH CH. 0,2X0,2",
+            "SURFACE ROUGHNESS",
+            "Les côtes, tolérances, rugosités indiquées doivent etre respectées pieces finies, avec traitements et protections eventuels",
+            "Dimensions, tolerances and roughness specified correspond to the finished part, including the possible coating and treatment"
+        ],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": null,
+        "currency": null
+    },
+    "items": [],
+    "raw_text_all": [
+        "PIECE SYMETRIQUE AU PLAN N?",
+        "5-2800-55-4010",
+        "SYMMETRICAL PART TO THE PART",
+        "CASSER LES ANGLES VIFS PAR CH. 0,2X0,2",
+        "ETAT DE SURFACE Ra 3.2",
+        "BURR OUT SHARP EDGES WITH CH. 0,2X0,2",
+        "SURFACE ROUGHNESS",
+        "b",
+        "Date",
+        "Rév.",
+        "Description",
+        "23/06/2010",
+        "04",
+        "PLAN REFAIT SUR INVENTOR - AJOUT CH.2X2",
+        "UNITE DE COTATION:",
+        "Feuille/Sheet",
+        "Les côtes, tolérances, rugosités indiquées doivent etre respectées pieces finies, avec traitements et protections eventuels",
+        "MILLIMETRES",
+        "Tolérances générales: Usinage ISO 2768-mK/ Chaudronnerie NF E 86-050 Classe B",
+        "1/1",
+        "Dimensions, tolerances and roughness specified correspond to the finished part, including the possible coating and treatment",
+        "DIMENSION UNIT:",
+        "General tol.: Machining ISO 2768-mK/ Metalworking NF E 86-050 Class B",
+        "MILLIMETERS",
+        "Designation / Description:",
+        "Matiere/Material",
+        "C45 (XC 48)",
+        "SUPPORT VERIN SYM",
+        "Protection/Coating",
+        "Phosphat, manganese / Manganese",
+        "Phosphating",
+        "Auteur/Drawn by",
+        "Date",
+        "Traitement/Treatment",
+        "Masse/Weight",
+        "Famille/Family",
+        "Aucun/None",
+        "3,07 kg",
+        "BEM EXTERIEUR22/06/2010",
+        "USTRSIM",
+        "Format/Size",
+        "Echelle/Scale",
+        "Numero de Plan/Part Number",
+        "Indice/Rev.",
+        "A",
+        "52800.50-4000",
+        "04",
+        "A1",
+        "1:1",
+        "2",
+        "3"
+    ]
+}

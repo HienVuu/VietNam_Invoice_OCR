@@ -1,0 +1,54 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": "SON05847",
+        "date": "2020-08-16",
+        "seller_or_manufacturer": "Phúc Anh Minimart",
+        "buyer_or_project": "Chị Linh"
+    },
+    "technical_specs": null,
+    "technical_tables": null,
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 153000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Custas kem trứng",
+            "quantity": 3,
+            "unit": null,
+            "unit_price": 51000,
+            "total_money": 153000,
+            "specs_ref": "12P"
+        }
+    ],
+    "raw_text_all": [
+        "Phúc Anh Minimart",
+        "248 Cổ Bi - Gia Lâm - Hà Nội",
+        "00945984733",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Số: SON05847",
+        "Ngày: 16-08-2020",
+        "Khách hàng: Chị Linh",
+        "Điện thoại: 0397864496",
+        "Địa chỉ:",
+        "SL",
+        "Đơn giá",
+        "Thành tlần",
+        "Custas kem trứng 12P",
+        "51,000",
+        "3",
+        "153,000",
+        "Cộng tiền hàng",
+        "153,000",
+        "Chiết khấu",
+        "0",
+        "153,000",
+        "Khách phải trả",
+        "Tiền khách đưa",
+        "200,000",
+        "Trả lại",
+        "47,000"
+    ]
+}

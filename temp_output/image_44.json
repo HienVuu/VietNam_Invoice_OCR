@@ -1,0 +1,54 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 8000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Hồ khô TL G-05",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 8000,
+            "total_money": 8000,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "Đc: 212 Đường Trần Phú-Cẩm Phả",
+        "Nhân viên thu ngân:",
+        "ĐT 0333363328 - Fax 03338633328",
+        "Thời gian:20:53:35 - 14/08/2020",
+        "Tên hàng",
+        "Thành tiên",
+        "Giá",
+        "SL",
+        "CK",
+        "8.000đ",
+        "Hồ khô TL G-05 4",
+        "8.000",
+        "0",
+        "1",
+        "Tổng cộng:",
+        "8.000d",
+        "1",
+        "01",
+        "Chiết khấu bán hàng: trị",
+        "8.000d",
+        "Tổng số thanh toán:",
+        "XIN CẢM ƠN QUÍ KHÁCHI",
+        "000",
+        "Samsung Triple Camera",
+        "Chụp bằng Galaxy M21"
+    ]
+}

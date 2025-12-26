@@ -1,0 +1,124 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00001154",
+            "source_text": "Số (No): 00001154"
+        },
+        "date": {
+            "value": "2025-10-18",
+            "source_text": "Ngày (Date) 18 tháng (month) 10 năm (year) 2025"
+        },
+        "seller_or_manufacturer": {
+            "value": "CÔNG TY TNHH PHÚ THÀNH ĐẠT",
+            "source_text": "CôNG TY TNHH PHÚ THàNH ĐẠT"
+        },
+        "buyer_or_project": {
+            "value": "Công TY Cổ PHẦN Đầu Tư Trường AN Hải Phòng",
+            "source_text": "Công TY Cổ PHẦN Đầu Tư Trường AN Hải Phòng"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 72004680,
+            "source_text": "72.004.680"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "Bảy mươi hai triệu không trắm lịnh bốn nghìn sáu trăm tám mươi đồng"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Vôi bột",
+                "source_text": "Vôi bột"
+            },
+            "quantity": {
+                "value": 31.9,
+                "source_text": "31.90"
+            },
+            "unit": {
+                "value": "Tấn",
+                "source_text": "Tấn"
+            },
+            "unit_price": {
+                "value": 2090000.0,
+                "source_text": "2.090.000,00"
+            },
+            "total_money": {
+                "value": 66671000,
+                "source_text": "66.671.000"
+            },
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "HÓA ĐƠN GIÁ TRỊ GIA TĂNG",
+        "(VAT Invoice)",
+        "Ký hiệu(Sign): 1C25TYY",
+        "Số (No): 00001154",
+        "Phu Thanh Dat Ngày (Date) 18 tháng (month) 10 năm (year) 2025",
+        "SUCCESS TOSE THE MÃ CQT (Code): 00BB63349E 15004DEBA94202BA3629040E",
+        "Đơn vị bán hàng (Supplier): CôNG TY TNHH PHÚ THàNH ĐẠT",
+        "Mã số thuế (Tax code): 0200658237",
+        "Địa chỉ (Address): Thôn Phi Liệt, Xã Việt Khê, Thành phố Hải Phòng, Việt Nam",
+        "Điện thoại (Tel): 0225.367328",
+        "34588888 - Ngân hàng TMCP Á Châu - CN Hải Phòng",
+        "Số tài khoản (Bank account):",
+        "114002622268 - Vietinbank - CN Đông Hải Dương",
+        "Họ tên người mua hàng (Buyer)",
+        "Tên đơn vị (Company's name): Công TY Cổ PHẦN Đầu Tư Trường AN Hải Phòng",
+        "Mã số thuế (Tax code): 0201800937",
+        "Địa chỉ (Address): Lô CN119-13, Khu kinh tế Đình Vũ ? Cát Hải, Phường Đông Hải) Thành phố Hải",
+        "Phòng, Việt Nam",
+        "Số tài khoản (Bank account):",
+        "Chuyển khoản",
+        "Hình thức thanh toán (Payment method):",
+        "Số lượng",
+        "Đơn vị",
+        "Tên hàng hóa, dịch vụ",
+        "Thành tiền",
+        "Đơn giá",
+        "stt",
+        "(Quantity)",
+        "(Name of goods and services)",
+        "tính",
+        "(No)",
+        "(Amount)",
+        "(Unit price)",
+        "Unit)",
+        "3-122",
+        "c",
+        "2",
+        "b",
+        "A",
+        "66.671.000",
+        "Vôi bột",
+        "Tấn",
+        "2.090.000,00",
+        "31.90",
+        "66.671.000",
+        "Cộng tiền hàng:",
+        "(Total before VAT):",
+        "8% Tiền thuế GTGT/VAT amount):",
+        "Thuế suất GTGT (VAT rate)",
+        "5.333.680",
+        "72.004.680",
+        "Tổng tiền thanh toán (Total amount)",
+        "Bảy mươi hai triệu không trắm lịnh bốn nghìn sáu trăm tám mươi đồng",
+        "Số tiền viết bằng chữ (Total amount in words):",
+        "chắn",
+        "Người bán hàng (Seller)",
+        "Người mua hàng (Buyer)",
+        "(Ký, ghi rõ họ, tên)",
+        "(Ký, ghi rõ họ, tên)",
+        "(Signature full name)",
+        "(Signature, full name)",
+        "KỶ BỞI: CÔNG TY TNHH PHÚ THÀNH ĐẠT",
+        "Ký ngày: 18/10/2025"
+    ]
+}

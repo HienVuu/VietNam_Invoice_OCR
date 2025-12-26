@@ -1,0 +1,580 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "00000190",
+            "source_text": "Số: 00000190"
+        },
+        "date": {
+            "value": "2025-10-23",
+            "source_text": "Ngày 23 tháng 10 năm 2025"
+        },
+        "seller_or_manufacturer": {
+            "value": "CÔNG TY CỔ PHẦN PHỤ TÙNG MÁY CÔNG TRÌNH DHP",
+            "source_text": "CÔNG TY CỔ PHẦN PHỤ TÙNG MÁY CÔNG TRÌNH DHP"
+        },
+        "buyer_or_project": {
+            "value": "CỎNG TY CÓ PHẦN ĐẦU TƯ TRƯỜNG AN HẢI PHÒNG",
+            "source_text": "CỎNG TY CÓ PHẦN ĐẦU TƯ TRƯỜNG AN HẢI PHÒNG"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": {
+        "metadata": {
+            "title": null,
+            "drawing_no": null,
+            "revision": null,
+            "scale": null,
+            "projection": null,
+            "size": null,
+            "format_rev": null,
+            "ges_pn": null,
+            "material": null,
+            "finish": null,
+            "tolerances": {
+                "hole_diameter": null,
+                "edge": null,
+                "universal": null
+            },
+            "dimensions_unit": null,
+            "sheet": null,
+            "organization": null,
+            "confidentiality": null
+        },
+        "approvals": {
+            "drawn_by": {
+                "name": null,
+                "date": null
+            },
+            "engr": {
+                "name": null,
+                "date": null
+            },
+            "checked_by": {
+                "name": null,
+                "date": null
+            }
+        },
+        "notes": [],
+        "drawing_dimensions": {
+            "hole_features": [],
+            "radial_features": [],
+            "angular_features": [],
+            "linear_dimensions_sample": []
+        }
+    },
+    "financials": {
+        "total_payment": {
+            "value": 14529000,
+            "source_text": "5.205.000, 2.625.000, 1.310.000, 274.000, 292.000, 240.000, 194.000, 76.000, 99.000, 1.352.000, 1.372.000, 1.490.000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": null
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Gối con lăn đỡ của máy xúc",
+                "source_text": "Gối con lăn đỡ của máy xúc ECK2003/SK200-1/2/3 MD"
+            },
+            "quantity": {
+                "value": 5.0,
+                "source_text": "5,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 1041000.0,
+                "source_text": "1.041.000,00"
+            },
+            "total_money": {
+                "value": 5205000,
+                "source_text": "5.205.000"
+            },
+            "specs_ref": {
+                "value": "ECK2003/SK200-1/2/3 MD",
+                "source_text": "Gối con lăn đỡ của máy xúc ECK2003/SK200-1/2/3 MD"
+            }
+        },
+        {
+            "name": {
+                "value": "Bộ láp trước",
+                "source_text": "Bộ láp trước, bằng thép, dùng để truyền động, dùng cho máy xúc, kích thước dài 107mm"
+            },
+            "quantity": {
+                "value": 3.0,
+                "source_text": "3,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 875000.0,
+                "source_text": "875.000,00"
+            },
+            "total_money": {
+                "value": 2625000,
+                "source_text": "2.625.000"
+            },
+            "specs_ref": {
+                "value": "bằng thép, dùng để truyền động, dùng cho máy xúc, kích thước dài 107mm",
+                "source_text": "Bộ láp trước, bằng thép, dùng để truyền động, dùng cho máy xúc, kích thước dài 107mm"
+            }
+        },
+        {
+            "name": {
+                "value": "Bơm bánh răng",
+                "source_text": "Bơm bánh răng model AP2D28, dùng đề bơm dầu, cho bơm thủy lực đề điều khiến cho máy xúc, kích thước Đường kính ngoài 80mm, dài 160mm"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 655000.0,
+                "source_text": "655.000,00"
+            },
+            "total_money": {
+                "value": 1310000,
+                "source_text": "1.310.000"
+            },
+            "specs_ref": {
+                "value": "model AP2D28, dùng đề bơm dầu, cho bơm thủy lực đề điều khiến cho máy xúc, kích thước Đường kính ngoài 80mm, dài 160mm",
+                "source_text": "Bơm bánh răng model AP2D28, dùng đề bơm dầu, cho bơm thủy lực đề điều khiến cho máy xúc, kích thước Đường kính ngoài 80mm, dài 160mm"
+            }
+        },
+        {
+            "name": {
+                "value": "Bơm đầu",
+                "source_text": "Bơm đầu, điện áp 12V, bằng gang, dùng để bơm dầu nhiên liệu cho máy xúc (động cơ đốt trong kiểu piston)"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": null
+            },
+            "unit_price": {
+                "value": 137000.0,
+                "source_text": "137.000,00"
+            },
+            "total_money": {
+                "value": 274000,
+                "source_text": "274.000"
+            },
+            "specs_ref": {
+                "value": "điện áp 12V, bằng gang, dùng để bơm dầu nhiên liệu cho máy xúc (động cơ đốt trong kiểu piston)",
+                "source_text": "Bơm đầu, điện áp 12V, bằng gang, dùng để bơm dầu nhiên liệu cho máy xúc (động cơ đốt trong kiểu piston)"
+            }
+        },
+        {
+            "name": {
+                "value": "Khớp bơm",
+                "source_text": "Khớp bơm bằng nhựa giảm giật khi bơm, dùng cho máy xúc/máy đảo"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 146000.0,
+                "source_text": "146.000,00"
+            },
+            "total_money": {
+                "value": 292000,
+                "source_text": "292.000"
+            },
+            "specs_ref": {
+                "value": "bằng nhựa giảm giật khi bơm, dùng cho máy xúc/máy đảo",
+                "source_text": "Khớp bơm bằng nhựa giảm giật khi bơm, dùng cho máy xúc/máy đảo"
+            }
+        },
+        {
+            "name": {
+                "value": "Rotuyn tròn đánh lái góc cua",
+                "source_text": "Rotuyn tròn đánh lái góc cua, phụ kiện máy xúc, bằng sắt"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 120000.0,
+                "source_text": "120.000,00"
+            },
+            "total_money": {
+                "value": 240000,
+                "source_text": "240.000"
+            },
+            "specs_ref": {
+                "value": "phụ kiện máy xúc, bằng sắt",
+                "source_text": "Rotuyn tròn đánh lái góc cua, phụ kiện máy xúc, bằng sắt"
+            }
+        },
+        {
+            "name": {
+                "value": "Vòng bi",
+                "source_text": "Vòng bi BA246-2, bằng thép, kích thước 246?313?32 (mm), không nhãn hiệu"
+            },
+            "quantity": {
+                "value": 1.0,
+                "source_text": "1,00"
+            },
+            "unit": {
+                "value": "Vòng",
+                "source_text": "Vòng"
+            },
+            "unit_price": {
+                "value": 194000.0,
+                "source_text": "194.000,00"
+            },
+            "total_money": {
+                "value": 194000,
+                "source_text": "194.000"
+            },
+            "specs_ref": {
+                "value": "BA246-2, bằng thép, kích thước 246?313?32 (mm), không nhãn hiệu",
+                "source_text": "Vòng bi BA246-2, bằng thép, kích thước 246?313?32 (mm), không nhãn hiệu"
+            }
+        },
+        {
+            "name": {
+                "value": "Bạc dẫn hướng máy xúc",
+                "source_text": "Bạc dẫn hướng máy xúc 80-100-95 S/F/Bạc gầu"
+            },
+            "quantity": {
+                "value": 1.0,
+                "source_text": "1,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 76000.0,
+                "source_text": "76.000,00"
+            },
+            "total_money": {
+                "value": 76000,
+                "source_text": "76.000"
+            },
+            "specs_ref": {
+                "value": "80-100-95 S/F/Bạc gầu",
+                "source_text": "Bạc dẫn hướng máy xúc 80-100-95 S/F/Bạc gầu"
+            }
+        },
+        {
+            "name": {
+                "value": "Bình nước phụ",
+                "source_text": "Bình nước phụ, bằng nhựa, dung tích 4L, dùng cho máy xúc"
+            },
+            "quantity": {
+                "value": 3.0,
+                "source_text": "3,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 33000.0,
+                "source_text": "33.000,00"
+            },
+            "total_money": {
+                "value": 99000,
+                "source_text": "99.000"
+            },
+            "specs_ref": {
+                "value": "bằng nhựa, dung tích 4L, dùng cho máy xúc",
+                "source_text": "Bình nước phụ, bằng nhựa, dung tích 4L, dùng cho máy xúc"
+            }
+        },
+        {
+            "name": {
+                "value": "Cục role từ",
+                "source_text": "Cục role từ 24V đường kính 13mm cao 52mm"
+            },
+            "quantity": {
+                "value": 4.0,
+                "source_text": "4,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 338000.0,
+                "source_text": "338.000,00"
+            },
+            "total_money": {
+                "value": 1352000,
+                "source_text": "1.352.000"
+            },
+            "specs_ref": {
+                "value": "24V đường kính 13mm cao 52mm",
+                "source_text": "Cục role từ 24V đường kính 13mm cao 52mm"
+            }
+        },
+        {
+            "name": {
+                "value": "Vành răng di chuyền",
+                "source_text": "Vành răng di chuyền, kích thước 139mm, bằng sắt"
+            },
+            "quantity": {
+                "value": 2.0,
+                "source_text": "2,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 686000.0,
+                "source_text": "686.000,00"
+            },
+            "total_money": {
+                "value": 1372000,
+                "source_text": "1.372.000"
+            },
+            "specs_ref": {
+                "value": "kích thước 139mm, bằng sắt",
+                "source_text": "Vành răng di chuyền, kích thước 139mm, bằng sắt"
+            }
+        },
+        {
+            "name": {
+                "value": "Khớp nối trục tăng bét cầu trước",
+                "source_text": "Khớp nối trục tăng bét cầu trước (Đầu trâu), dùng để kết nối rotuyn đánh lái, bằng thép, kích thước 295?390?370mm"
+            },
+            "quantity": {
+                "value": 1.0,
+                "source_text": "1,00"
+            },
+            "unit": {
+                "value": "Cái",
+                "source_text": "Cái"
+            },
+            "unit_price": {
+                "value": 1490000.0,
+                "source_text": "1.490.000,00"
+            },
+            "total_money": {
+                "value": 1490000,
+                "source_text": "1.490.000"
+            },
+            "specs_ref": {
+                "value": "(Đầu trâu), dùng để kết nối rotuyn đánh lái, bằng thép, kích thước 295?390?370mm",
+                "source_text": "Khớp nối trục tăng bét cầu trước (Đầu trâu), dùng để kết nối rotuyn đánh lái, bằng thép, kích thước 295?390?370mm"
+            }
+        }
+    ],
+    "raw_text_all": [
+        "3",
+        "18",
+        "58",
+        "HÓA ĐƠN GIÁ TRỊ GIA TĂNG",
+        "Ký hiệu: 1C25TDH",
+        "3",
+        "Số:",
+        "Ngày 23 tháng 10 năm 2025",
+        "03",
+        "00000190",
+        "MÃ CQT: 00B930801659E947B889941 D36DIDBEOE1",
+        "TRUNG DUNG",
+        "51",
+        "CÔNG TY CỔ PHẦN PHỤ TÙNG MÁY CÔNG TRÌNH DHP",
+        "8 Mã số thuế: 0202282082",
+        "Địa chi: Số 599, Đường 208, Tổ dân phố Vĩnh Khê, Phường An Hải, TP Hải Phòng, Việt Nam",
+        "Điện thoại: 0982678689",
+        "SỐ TÀI KHOẢN: 8650055914 - NH TMCP ĐẦU TƯ VÀ PHÁT TRIÊN VIỆT NAM",
+        "3 Họ tên người mua hàng:",
+        "8",
+        "TÊN ĐƠN VỊ: CỎNG TY CÓ PHẦN ĐẦU TƯ TRƯỜNG AN HẢI PHÒNG",
+        "39",
+        "Mã số thuế: 0201800937",
+        "2%",
+        "39",
+        "Tổ Địa chỉ: Lô CN119-13, Khu kinh tế Đình Vũ ? Cát Hải, Phường Đông Hải, TP Hải Phòng, Việt Nam.",
+        "Số tài khoản:",
+        "Hình thức thanh toán: TM/CK",
+        "Đơn vị",
+        "5",
+        "Thuế suất",
+        "Số lượng",
+        "Tên hàng hóa, dịch vụ",
+        "Tiền thuế GTGT",
+        "Thành tiền",
+        "Đơn giá",
+        "STT",
+        "5",
+        "68",
+        "gigt",
+        "tính",
+        "01990000029",
+        "%",
+        "Gối con lăn đỡ của máy xúc",
+        "416.400",
+        "5.205.000",
+        "5,00.1.041.000,00",
+        "8%",
+        "Cái",
+        "ECK2003/SK200-1/2/3 MD",
+        "Bộ láp trước, bằng thép, dùng để",
+        "truyền động, dùng cho máy xúc,",
+        "210.000",
+        "8%",
+        "2.625.000",
+        "875.000,00",
+        "3,00",
+        "Cái",
+        "2",
+        "3",
+        "kích thước dài 107mm",
+        "3",
+        "Bơm bánh răng model AP2D28,",
+        "dùng đề bơm dầu, cho bơm thủy",
+        "25",
+        "lực đề điều khiến cho máy xúc,",
+        "104.800",
+        "8%",
+        "1.310.000",
+        "655.000,00",
+        "Cái",
+        "2,00",
+        "",
+        "E",
+        "kích thước Đường kính ngoài",
+        "L",
+        "80mm, dài 160mm",
+        "Bơm đầu, điện áp 12V, bằng gang,",
+        "dùng để bơm dầu nhiên liệu cho",
+        "274.000",
+        "9",
+        "8%",
+        "21.920",
+        "137.000,00",
+        "2,00",
+        "1",
+        "máy xúc (động cơ đốt trong kiểu",
+        "",
+        "4",
+        "Y",
+        "piston)",
+        "81",
+        "3",
+        "Khớp bơm bằng nhựa giảm giật khi",
+        "3",
+        "23.360",
+        "8%",
+        "292.000",
+        "146.000,00",
+        "2,00",
+        "Cái",
+        "5",
+        "3",
+        "bơm, dùng cho máy xúc/máy đảo",
+        "8",
+        "E",
+        "3",
+        "Rotuyn tròn đánh lái góc cua, phụ",
+        "19.200",
+        "240.000",
+        "2,00",
+        "8%",
+        "Cái",
+        "120.000,00",
+        "6",
+        "E",
+        "3",
+        "kiện máy xúc, bằng sắt",
+        "00190000009",
+        "Vòng bi BA246-2, bằng thép, kích",
+        "%",
+        "Vòng",
+        "thước 246?313?32 (mm), không",
+        "15.520",
+        "194.000,00",
+        "8%",
+        "194.000",
+        "1,00",
+        "39",
+        "nhãn hiệu",
+        "3",
+        "1",
+        "Bạc dẫn hướng máy xúc 80-100-95",
+        "6.080",
+        "76.000",
+        "1,00",
+        "8%",
+        "Cái",
+        "76.000,00",
+        "8",
+        "S/F/Bạc gầu",
+        "3",
+        "Bình nước phụ, bằng nhựa, dung",
+        "7.920",
+        "99.000",
+        "33.000,00",
+        "3,00",
+        "8%",
+        "Cái",
+        "9",
+        "tích 4L, dùng cho máy xúc",
+        "%",
+        "Cục role từ 24V đường kính 13mm",
+        "108.160",
+        "8%",
+        "10",
+        "1.352.000",
+        "338.000,00",
+        "4.00",
+        "Cái",
+        "cao 52mm",
+        "%",
+        "3",
+        "Vành răng di chuyền, kích thước",
+        "1.372.000",
+        "8%",
+        "2,00",
+        "Cái",
+        "11",
+        "3",
+        "109.760",
+        "686.000,00",
+        "139mm, bằng sắt",
+        "Khớp nối trục tăng bét cầu trước",
+        "3",
+        "(Đầu trâu), dùng để kết nối rotuyn",
+        "9",
+        "119.200",
+        "1.490.000",
+        "1,00 1.490.000,00",
+        "8%",
+        "Cái",
+        "12",
+        "đánh lái, bằng thép, kích thước",
+        "3",
+        "295?390?370mm",
+        "1"
+    ]
+}

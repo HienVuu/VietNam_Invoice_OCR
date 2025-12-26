@@ -1,0 +1,177 @@
+{
+    "document_type": "invoice",
+    "general_info": {
+        "code": {
+            "value": "000AB221200804195",
+            "source_text": "Số GD: 000AB221200804195"
+        },
+        "date": {
+            "value": "2020-08-17",
+            "source_text": "17/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": {
+            "value": "lê thị hà",
+            "source_text": "(0) lê thị hà"
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 1003000.0,
+            "source_text": "1,003,000"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Sữa bột pedia NT",
+                "source_text": "Sữa bột pedia NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "hop",
+                "source_text": "hop"
+            },
+            "unit_price": {
+                "value": 950000.0,
+                "source_text": "950,000"
+            },
+            "total_money": {
+                "value": 950000.0,
+                "source_text": "950,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Thuốc lá 3 số 555 NT",
+                "source_text": "Thuốc lá 3 số 555 NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 29000.0,
+                "source_text": "29,000"
+            },
+            "total_money": {
+                "value": 29000.0,
+                "source_text": "29,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "Kem merino super teen NT",
+                "source_text": "Kem merino super teen NT"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "cha",
+                "source_text": "cha"
+            },
+            "unit_price": {
+                "value": 9000.0,
+                "source_text": "9,000"
+            },
+            "total_money": {
+                "value": 9000.0,
+                "source_text": "9,000"
+            },
+            "specs_ref": null
+        },
+        {
+            "name": {
+                "value": "kem merino celano trân châu No",
+                "source_text": "kem merino celano trân châu No"
+            },
+            "quantity": {
+                "value": 1,
+                "source_text": "1"
+            },
+            "unit": {
+                "value": "CAY",
+                "source_text": "CAY"
+            },
+            "unit_price": {
+                "value": 15000.0,
+                "source_text": "15,000"
+            },
+            "total_money": {
+                "value": 15000.0,
+                "source_text": "15,000"
+            },
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "ANTICULATED",
+        "MINIMART ANAN",
+        "Chợ Súi Phú Thị Gia Lâm",
+        "Tel:",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Tên hàng",
+        "ĐVT Đơn giá Thành tiến",
+        "9",
+        "8886451071330 Sữa bột pedia NT",
+        "1",
+        "hop",
+        "950,000",
+        "950,000",
+        "29100931000 Thuốc lá 3 số 555 NT",
+        "GOI",
+        "1",
+        "29,000",
+        "29,000",
+        "8936011774031 Kem merino super teen NT",
+        "9,000",
+        "9,000",
+        "cha",
+        "1",
+        "8936011773409 kem merino celano trân châu No",
+        "CAY",
+        "15,000",
+        "15,000",
+        "1",
+        "Tổng số:",
+        "4",
+        "1,003,000",
+        "Tổng cộng:",
+        "1,003,000",
+        "VND",
+        "Tiền khách trả:",
+        "Mã thẻ: A10000000450",
+        "(0) lê thị hà",
+        "100",
+        "Điêm mua:",
+        "2,581",
+        "Điểm hiện thời:",
+        "Hạng hiện thời:",
+        "17,540",
+        "Giá trị thưởng tích lũy:",
+        "Số GD: 000AB221200804195 Ngày: 17/08/2020-14.59",
+        "Thu ngân: BH2",
+        "Xin cám an và hơn cấp tại quý khách 1"
+    ]
+}

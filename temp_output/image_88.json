@@ -1,0 +1,216 @@
+{
+    "document_type": {
+        "value": "invoice",
+        "source_text": "HÓA ĐƠN BÁN HÀNG"
+    },
+    "general_info": {
+        "code": {
+            "value": "000AC2212008001863",
+            "source_text": "000AC2212008001863"
+        },
+        "date": {
+            "value": "2020-08-13",
+            "source_text": "13/08/2020"
+        },
+        "seller_or_manufacturer": {
+            "value": "MINIMART ANAN",
+            "source_text": "MINIMART ANAN"
+        },
+        "buyer_or_project": {
+            "value": null,
+            "source_text": null
+        }
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": {
+            "value": 67500.0,
+            "source_text": "67,500"
+        },
+        "currency": {
+            "value": "VND",
+            "source_text": "VND"
+        }
+    },
+    "items": [
+        {
+            "name": {
+                "value": "Mì omachi sườn 80g NT",
+                "source_text": "Mì omachi sườn 80g NT"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 6000.0,
+                "source_text": "6,000"
+            },
+            "total_money": {
+                "value": 12000.0,
+                "source_text": "12,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "Phở gà vifon NT",
+                "source_text": "Phở gà vifon NT"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 5500.0,
+                "source_text": "5,500"
+            },
+            "total_money": {
+                "value": 11000.0,
+                "source_text": "11,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "bún riêu cua NT",
+                "source_text": "bún riêu cua NT"
+            },
+            "quantity": {
+                "value": 3,
+                "source_text": "3"
+            },
+            "unit": {
+                "value": "CAT",
+                "source_text": "CAT"
+            },
+            "unit_price": {
+                "value": 7000.0,
+                "source_text": "7,000"
+            },
+            "total_money": {
+                "value": 21000.0,
+                "source_text": "21,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "phở cung đình gói 68g NO",
+                "source_text": "phở cung đình gói 68g NO"
+            },
+            "quantity": {
+                "value": 2,
+                "source_text": "2"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 6500.0,
+                "source_text": "6,500"
+            },
+            "total_money": {
+                "value": 13000.0,
+                "source_text": "13,000"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        },
+        {
+            "name": {
+                "value": "8936048470524 8936048471248 NT",
+                "source_text": "8936048470524 8936048471248 NT"
+            },
+            "quantity": {
+                "value": 3,
+                "source_text": "3"
+            },
+            "unit": {
+                "value": "GOI",
+                "source_text": "GOI"
+            },
+            "unit_price": {
+                "value": 3500.0,
+                "source_text": "3,500"
+            },
+            "total_money": {
+                "value": 10600.0,
+                "source_text": "10,600"
+            },
+            "specs_ref": {
+                "value": null,
+                "source_text": null
+            }
+        }
+    ],
+    "raw_text_all": [
+        "MINIMART ANAN",
+        "Chợ Sủi Phú Thị Gia Lâm",
+        "el:",
+        "HÓA ĐƠN BÁN HÀNG",
+        "Tên hàng",
+        "SL ĐVT",
+        "Thành tiến",
+        "Đơn giá",
+        "8936017368104 Mì omachi sườn 80g NT",
+        "12,000",
+        "GOI",
+        "2",
+        "6,000",
+        "8934561020028 Phở gà vifon NT",
+        "2",
+        "11,000",
+        "5,500",
+        "GOI",
+        "8934561010043 bún riêu cua NT",
+        "3",
+        "21,000",
+        "CAT",
+        "7,000",
+        "8936010681415 phở cung đình gói 68g NO",
+        "13,000",
+        "6,500",
+        "GOI",
+        "2",
+        "8936048470524 8936048471248 NT",
+        "10,600",
+        "3,500",
+        "GOI",
+        "3",
+        "Tổng số:",
+        "12",
+        "Tổng cộng:",
+        "67,500",
+        "500,000",
+        "Tiền khách trả:",
+        "VND",
+        "432,500",
+        "Tiền trả lại VND:",
+        "Số GD: 000AC2212008001863 Ngày: 13/08/2020-19:34",
+        "Thu ngân: BH3",
+        "Xin cám ơn và hẹn gặp lại quý khách l"
+    ]
+}

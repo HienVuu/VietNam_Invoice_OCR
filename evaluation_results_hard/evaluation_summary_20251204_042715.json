@@ -1,0 +1,9 @@
+{
+    "timestamp": "2025-12-04T04:27:15.586248",
+    "total_invoices": 38,
+    "average_weighted_score": 0.7571599453178405,
+    "average_hard_score": 0.9078947368421053,
+    "average_soft_score": 0.5789473684210527,
+    "average_line_item_f1": 0.6476418318523582,
+    "stp_rate": 81.57894736842105
+}

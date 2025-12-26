@@ -1,0 +1,76 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": "000AC2212008001830",
+        "date": "13/08/2020",
+        "seller_or_manufacturer": "A MINIMART ANAN Và Chợ Sủi Phú Thị Gia Lâm",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 58000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Bột làm thạch NT",
+            "quantity": 1,
+            "unit": "GOI",
+            "unit_price": 16000,
+            "total_money": 16000,
+            "specs_ref": null
+        },
+        {
+            "name": "Bánh Chocopie 6p 180g NT",
+            "quantity": 1,
+            "unit": "HOP",
+            "unit_price": 26000,
+            "total_money": 26000,
+            "specs_ref": null
+        },
+        {
+            "name": "nước dừa, táo, xoài chabaa No",
+            "quantity": 2,
+            "unit": "LON",
+            "unit_price": 8000,
+            "total_money": 16000,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "A MINIMART ANAN",
+        "Và Chợ Sủi Phú Thị Gia Lâm",
+        "el:",
+        "PHÓA ĐƠN BÁN HÀNG",
+        "SL ĐVT",
+        "Đơn giá Thành tiến",
+        "Tên hàng",
+        "8936004887106 Bột làm thạch NT",
+        "16,000",
+        "16,000",
+        "GOI",
+        "1",
+        "8936036020373 Bánh Chocopie 6p 180g NT",
+        "26,000",
+        "HOP",
+        "1",
+        "26,000",
+        "38854761184019 nước dừa, táo, xoài chabaa No",
+        "8,000",
+        "16,000",
+        "LON",
+        "2",
+        "ổng số:",
+        "4",
+        "58,000",
+        "ổng cộng:",
+        "Tiền khách trả:",
+        "58,000",
+        "VND",
+        "Số GD: 000AC2212008001830 Ngày: 13/08/2020-18:12",
+        "Thu ngân: BH3",
+        "Xin cám ơn và hẹn gặp lại quý khách l"
+    ]
+}

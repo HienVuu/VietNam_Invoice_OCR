@@ -1,0 +1,91 @@
+{
+    "document_type": "receipt",
+    "general_info": {
+        "code": null,
+        "date": "2020-08-14",
+        "seller_or_manufacturer": "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "buyer_or_project": null
+    },
+    "technical_specs": [],
+    "technical_tables": [],
+    "technical_drawing": null,
+    "financials": {
+        "total_payment": 46000,
+        "currency": "VND"
+    },
+    "items": [
+        {
+            "name": "Bút chữ A",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 3000,
+            "total_money": 3000,
+            "specs_ref": null
+        },
+        {
+            "name": "Bút bi 032 ?G300 ?",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 5000,
+            "total_money": 5000,
+            "specs_ref": null
+        },
+        {
+            "name": "Vở 4 ôly Campus",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 19000,
+            "total_money": 19000,
+            "specs_ref": null
+        },
+        {
+            "name": "Vở Campus 4 ô ly",
+            "quantity": 1,
+            "unit": null,
+            "unit_price": 19000,
+            "total_money": 19000,
+            "specs_ref": null
+        }
+    ],
+    "raw_text_all": [
+        "NHÀ SÁCH GD-TC CẨM PHẢ",
+        "Đc: 212 Đường Trần Phú-Cẩm Phả",
+        "Nhân viên thu ngân:",
+        "ĐT 0333863328 - Fax 0333863328",
+        "Thời gian 21.24.03 - 14/08/2020",
+        "Thành tiền",
+        "Giá",
+        "SL",
+        "Ck",
+        "Tên hàng",
+        "3.000d",
+        "0",
+        "3.000",
+        "1",
+        "Bút chữ A",
+        "5.000d",
+        "0",
+        "5.000",
+        "1",
+        "Bút bi 032 ?G300 ?",
+        "19.000",
+        "0",
+        "19.000",
+        "Vở 4 ôly Campus",
+        "19.000",
+        "19.000",
+        "0",
+        "Vở Campus 4 ô ly",
+        "46.0008",
+        "4",
+        "Tổng cộng:",
+        "04",
+        "Chiết khấu bán hàng:",
+        "46.000d",
+        "Tổng số thanh toản:",
+        "XIN CẢM ƠN QUÍ KHÁCHI",
+        "000",
+        "Samsung Triple Camera",
+        "Chụp bằng Galaxy M21"
+    ]
+}
