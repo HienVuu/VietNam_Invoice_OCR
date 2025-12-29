@@ -1,87 +1,36 @@
-
-# System Files
-.DS_Store/
-Thumbs.db
-
-# Python
+# --- Rác hệ thống ---
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual Environments
-Vietocr_env/
-env/
-venv/
-.venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDEs
+*.pyc
+.DS_Store
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-predict_temp.ipynb
-colab_paddle.ipynb
-
-# Model Files
-*.pth
-*.onnx
-*.pdmodel
-*.pdiparams
-PaddleOCR/inference/
-vgg_transformer.pth
-vi00_vi01_transformer.yml/
-
-# Output Directories
+# --- Dữ liệu huấn luyện & Ảnh (XÓA BỎ) ---
+mc_ocr_dataset/
+dataset/
+input/
 output/
 temp_output/
 evaluation_results/
 evaluation_results_hard/
-mc_ocr_dataset/annotations/
-mc_ocr_dataset/images/
-
-# Logs
-*.log
-logs/
-
-# Temporary Files
-*.tmp
-*.temp
-.cache/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Test Results
 test_results.json
-evaluation_details_*.csv
-evaluation_summary_*.json
 
-# Input/Output Data (ignore user-specific input images and generated outputs)
-input/
-output/
-# dataset/  # Uncomment if you want to ignore dataset as well
+# --- Các script thừa (XÓA BỎ) ---
+create_ground_truth.py
+validate_ground_truth.py
+categorize_images.py
+combined_simple.py
+download_dataset.py
+
+# --- Tool & File nặng ---
+ngrok.exe
+ngrok.zip
+*.pth
+*.zip
+*.tar.gz
+
+# --- Ngoại lệ (Giữ lại) ---
+!app.py
+!run.py
+!README.md
+!requirements.txt
+!packages.txt
